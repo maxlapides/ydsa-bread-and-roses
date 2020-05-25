@@ -1,0 +1,49 @@
+@import "colors";
+
+.mailchimp-wrapper {
+  width: 100%;
+}
+
+.mailchimp-wrapper {
+  margin: 40px 0;
+
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    font-family: "KelptA1-Medium", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+
+  #mc_embed_signup {
+    font-family: "Lora", serif;
+    font-size: 16px;
+
+    @media (min-width: 1000px) {
+      font-size: 18px;
+    }
+
+    form {
+      padding: 0;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 40px;
+      margin-top: 0;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .button {
+      background-color: $green;
+
+      &:hover {
+        background-color: $green;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
+}

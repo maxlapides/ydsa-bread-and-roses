@@ -1,0 +1,63 @@
+@import "colors.scss";
+@import "breakpoints.scss";
+
+.hero {
+  background-color: $red;
+  margin: 2.5rem auto 0;
+  padding: 4rem 3rem;
+  width: 100%;
+  max-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  @media (max-width: 768px) {
+    background-image: none !important;
+  }
+
+  @include bp(desktop) {
+    margin-top: 0;
+    padding: 7rem 5rem;
+  }
+
+  h1 {
+    margin: 0;
+    color: white;
+    font-family: "KelptA1-Black", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    line-height: 1em;
+    text-align: left;
+    max-width: 500px;
+
+    @include bp(desktop) {
+      font-size: 80px;
+      max-width: 650px;
+    }
+  }
+
+  &--red {
+    background-color: $red;
+
+    .home & {
+      padding: 72px 3rem;
+    }
+  }
+
+  &--green {
+    background-color: $green;
+  }
+
+  &--blue {
+    background-color: $blue;
+  }
+
+  &--yellow {
+    background-color: $yellow;
+
+    h1 {
+      color: black;
+    }
+  }
+}

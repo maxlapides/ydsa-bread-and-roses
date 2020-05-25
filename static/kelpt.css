@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3781783, 2019-07-05T15:01:13-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: KelptA1-Medium by Typesketchbook
+ * URL: https://www.myfonts.com/fonts/typesketchbook/kelpt/a1-medium/
+ * 
+ * Webfont: KelptA1-Black by Typesketchbook
+ * URL: https://www.myfonts.com/fonts/typesketchbook/kelpt/a1-black/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3781783
+ * Licensed pageviews: 200,000
+ * Webfonts copyright: Copyright (c) 2017 by Typesketchbook. All rights reserved.
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/39b497");
+
+  
+@font-face {font-family: 'KelptA1-Medium';src: url('webfonts/39B497_0_0.eot');src: url('webfonts/39B497_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/39B497_0_0.woff2') format('woff2'),url('webfonts/39B497_0_0.woff') format('woff'),url('webfonts/39B497_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'KelptA1-Black';src: url('webfonts/39B497_1_0.eot');src: url('webfonts/39B497_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/39B497_1_0.woff2') format('woff2'),url('webfonts/39B497_1_0.woff') format('woff'),url('webfonts/39B497_1_0.ttf') format('truetype');}
+ 

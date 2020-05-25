@@ -1,0 +1,136 @@
+@import "./breakpoints";
+
+.candidate-cards .position {
+  margin-top: 20px;
+  width: 100%;
+
+  > h3 {
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+}
+
+.candidate-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.candidate-card {
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex: 0 1 100%;
+  margin: 3% 0;
+  text-align: left;
+
+  &:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  h4 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0.8em;
+  }
+}
+
+.candidate-cards-wrapper {
+  width: 100%;
+}
+
+.candidate-cards-wrapper--single {
+  width: 49%;
+}
+
+.candidate-cards-wrapper--single .candidate-card {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+.candidate-card__content {
+  padding-left: 20px;
+}
+
+.candidate-photo {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+  shape-outside: circle();
+  flex: 1 0 auto;
+}
+
+.ant-modal-body {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .candidate-photo {
+    float: left;
+    margin: 0 25px 5px 0;
+  }
+
+  p,
+  li {
+    font-size: 16px;
+
+    @include bp(desktop) {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .candidate-card {
+    flex: 0 1 auto;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .candidate-photo {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .candidate-card h3 {
+    font-size: 1.15em;
+  }
+
+  .candidate-cards-wrapper--single {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .candidate-card {
+    display: block;
+    text-align: center;
+  }
+
+  .candidate-photo {
+    margin: 0 auto 20px;
+  }
+
+  .candidate-card__content {
+    padding: 0;
+  }
+}

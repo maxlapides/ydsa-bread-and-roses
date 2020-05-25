@@ -1,0 +1,29 @@
+.ant-layout-content.language-bar {
+  padding: 20px 0 0 0;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+
+  a {
+    padding: 15px 20px;
+    margin: 0 0 0 20px;
+    border-radius: 2px;
+    border: solid 1px #ccc;
+  }
+
+  p {
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .languages {
+    display: flex;
+    justify-content: center;
+  }
+
+  .is-active {
+    opacity: 0.5;
+  }
+}
