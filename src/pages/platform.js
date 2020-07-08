@@ -7,12 +7,7 @@ import InternalLink from "../components/internal-link"
 import ExternalLink from "../components/external-link"
 
 const Platform = () => (
-  <Layout
-    title="2020 Platform"
-    color="red"
-    heroImageName="dslc"
-    languageBarSettings={{ english: "/platform/", spanish: "/platform-es/" }}
-  >
+  <Layout title="2020 Platform" color="red" heroImageName="dslc">
     <SEO title="East Bay DSA 2020 Platform" ogImage="dslc" />
     <div className="sidebar">
       <h2>Outline</h2>
