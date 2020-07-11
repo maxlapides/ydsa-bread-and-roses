@@ -3,663 +3,550 @@ import { Element } from "react-scroll"
 import { Modal, Button } from "antd"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import shuffle from "lodash/shuffle"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ExternalLink from "../components/external-link"
-import MailChimpSignUp from "../components/mailchimp-sign-up"
+// import MailChimpSignUp from "../components/mailchimp-sign-up"
 
 const candidates = [
   {
-    name: "Matt Stone",
+    name: "Labiba Chowdhury",
+    school: "CCNY",
     position: "Co-Chair",
     bio: (
       <>
         <p>
-          East Bay DSA is at a critical point, poised between our successful
-          Bernie campaign and a challenging year marked by the pandemic,
-          economic recession, and political crisis.
+          Hi there! I’m running for co-chair of YDSA and attend City College in
+          New York City. I am the daughter of working class Bangladeshi
+          immigrants and was born and raised in Queens, New York. I was first
+          radicalized by seeing the disparity in quality of life when my family
+          visited Bangladesh. In the Bangladeshi capital Dhaka, the second your
+          car leaves the driveway and enters the street, you’re surrounded by
+          begging children and families.
+        </p>
+        <p>
+          Ten-year-old me didn’t know what capitalism or socialism were, but I
+          dreamed of masses of people uniting together to force billionaires
+          like Bill Gates to share their wealth with the rest of us. However, it
+          was some time before I was able to articulate these thoughts as
+          socialist politics. Growing up Muslim in New York City made me afraid
+          to search “Socialism” on Google, out of fear of the government
+          surveilance. It was overwhelming knowing capitalism was the root of
+          all the problems my friends, family, and I faced, while not knowing
+          how we could begin to overcome it without putting ourselves at further
+          risk!
         </p>
 
         <p>
-          <strong>
-            I’m running for Co-Chair because I believe we can rise to these
-            challenges. Together, we can build an organization rooted in the
-            multiracial working class and primed to build an independent party
-            in the coming years.
-          </strong>
+          I decided to attend City College because it was a public college that
+          was affordable for working class students like me. When I saw the
+          flyers for YDSA it felt like my whole life had led up to that moment.
+          A national, mass organization with tens of thousands of members
+          fighting for a better world?! Sign me up and brand me forever! I have
+          given this organization everything for that reason. I have served on
+          the organizing committee of City College YDSA for the past year and
+          represented NYC YDSA chapters on the NYC DSA steering committee from
+          June 2019 to March 2020.
+        </p>
+        <p>
+          I trained student organizers and grew the number of YDSA chapters in
+          New York City from 2 to 9. I took advantage of the opportunities
+          presented by Bernie’s campaign to YDSA chapters specifically in CUNY
+          schools. These groups would be direct pipelines for working class
+          students to take on leadership roles in DSA and our movement. I am
+          currently the Deputy Campaign Manager for Marcela Mitaynes, a DSA
+          endorsed candidate for state assembly in Brooklyn, New York. Working
+          on an electoral campaign in the middle of COVID and mass unrest has
+          given me firsthand experience dealing with challenges we’ve never
+          faced before as an organization, and I want to apply all that I’ve
+          learned about digital organizing through this campaign - base
+          building, comms, fundraising, leadership development, and more - to
+          help grow YDSA.
         </p>
 
         <p>
-          I joined East Bay DSA in 2017 because I saw close family and friends
-          struggling to pay bills and secure healthcare — and I began to
-          understand the need to build a real political alternative to the
-          neoliberal consensus.
+          I am running for co-chair of YDSA because I want to help build YDSA
+          into a pipeline for creating lifelong socialist organizers who are
+          reflective of the multiracial working class. However, to achieve our
+          long term goals of abolishing capitalism and building socialism, we
+          need to recognize our power and place in this project as student
+          organizers.
         </p>
 
         <p>
-          Since joining DSA, I’ve been proud to lead mass campaigns that advance
-          that vision. I <strong>launched our DSA for Bernie campaign</strong>{" "}
-          as a founding Co-Chair of the 2020 Committee,{" "}
-          <strong>built the Jovanka Beckles field operation</strong> that
-          knocked 18,000 doors, and drove all across California as a{" "}
-          <strong>Regional Organizer for our M4A campaign</strong>. I also
-          currently serve as an{" "}
-          <strong>At-Large Steering Committee Member</strong> and on{" "}
-          <strong>DSA’s National Electoral Committee</strong>, where I help
-          organize DSA’s elected officials.
+          Through my experiences on the national College for All, Green New
+          Deal, Growth and Diversification committees, it is clear to me that
+          YDSA is stretched too thin. We need to focus on and prioritize
+          political education and campaign work that will sharpen the organizing
+          skills of our members and build our capacity. As socialists we know
+          that labor is central to how we build power and win.
         </p>
 
         <p>
-          This year, I’m committed to organizing our chapter to strategically
-          build worker power and militancy. Together, we must:
+          As we develop lifelong socialist organizers, it is also crucial that
+          we build a rank and file strategy pipeline to funnel our organizers
+          into strategic unions and build economic, social, and political power
+          for the working class from the bottom-up. Personally, that is why I am
+          going to become a train conductor and join the Transit Workers Union
+          in New York City after graduating.
         </p>
 
-        <ul>
-          <li>
-            <strong>Commit to a rank-and-file strategy</strong> to rebuild the
-            left-wing “militant minority” of the labor movement
-          </li>
-          <li>
-            <strong>Confront racist responses</strong> to the pandemic by{" "}
-            <strong>supporting frontline worker organizing</strong> and{" "}
-            <strong>campaigning against austerity</strong>
-          </li>
-          <li>
-            <strong>Build mass communications platforms</strong> like{" "}
-            <em>Majority</em> to reach new audiences
-          </li>
-          <li>
-            <strong>Grow and diversify East Bay DSA</strong> through mobilizers,
-            leadership development, and active recruitment
-          </li>
-          <li>
-            <strong>Unite the Bernie movement</strong> to lay the groundwork for
-            a future independent party
-          </li>
-        </ul>
+        <p>
+          We also need to build pipelines into working class communities for
+          membership and leadership in the short term. I want to help grow our
+          organization and build chapters in community colleges, HBCUs, and high
+          schools. We need to recruit and develop leaders in black and brown
+          working class communities to continue building the mass, multi-racial
+          working class movement that is necessary for us to win a better world.
+        </p>
 
         <p>
-          I’m proud to run on the Bread &amp; Roses slate, and I’m committed to
-          working with comrades across all tendencies to build DSA. I would be
-          honored to serve as Co-Chair and humbly ask for your support.
-          Solidarity forever!
+          I look forward to the discussions and debates at this convention! See
+          ya in Zoom!
         </p>
       </>
     ),
   },
   {
-    name: "Will Shattuc",
-    position: "Vice Chair",
+    name: "Neah Havens",
+    school: "WWU",
+    position: "Co-Chair",
     bio: (
       <>
         <p>
-          As an Oakland local, gentrification pushed me to protest the greed
-          eating my city. In 2017,{" "}
-          <strong>DSA taught me to organize for more</strong>.
+          I’m a 21 year old student at Western Washington University studying
+          Political Science and Women, Gender, Sexuality Studies, a future
+          elementary school teacher, and the co-chair of WWU YDSA. My activism
+          is rooted in a conviction that winning socialism requires a mass
+          working class movement.
+        </p>
+        <p>
+          My organizing experience began in 2017, when I began volunteering with
+          my local Planned Parenthood. While I still believe that work to be
+          important, I found it to be very single-issue focused, and I felt that
+          it was lacking the larger movement to be successful. In 2018, a friend
+          brought me to a Seattle DSA event, and soon after that I joined
+          Whatcom County DSA, where I began to understand what it meant to be a
+          part of a collective project and drew the connection between
+          capitalism and our everyday lives.
         </p>
 
         <p>
-          It’s been an immense privilege to be part of East Bay DSA and, as a
-          member of the Bread &amp; Roses slate,{" "}
-          <strong>
-            I’m asking for your vote to serve as our next Vice Chair
-          </strong>
-          . Beyond serving At-Large on our chapter’s Steering Committee, I:
+          In April 2019 a comrade and I founded WWU YDSA, and since then we have
+          grown to one of the most active political groups on campus. The Chanan
+          Suarez campaign for Bellingham City Council really pushed me to the
+          forefront of local politics and I’m so grateful to my comrades who
+          elected me as the Chair of the Electoral Committee. Interacting with
+          people all over the city, from the wealthy to the working class gave
+          me insight into how DSA could really make a difference in people’s
+          lives.
         </p>
-
-        <ul>
-          <li>
-            Was Social Housing Co-Chair, helping win a rent control campaign in
-            Hayward and helping lead our efforts for state-wide rent control.
-          </li>
-
-          <li>
-            Walked picket lines during the Oakland and Union City teachers’
-            strikes and captained canvasses for Jovanka Beckles.
-          </li>
-
-          <li>
-            <strong>
-              Dedicated the last year of my life full-time to Co-Chairing our
-              DSA for Bernie campaign, the largest project our chapter has ever
-              taken on
-            </strong>
-            , which helped deliver the fifth-largest economy in the world to
-            democratic socialism on election day.
-          </li>
-
-          <li>
-            Organized other California chapters to run DSA for Bernie campaigns
-            as a Regional Organizer, training and growing their membership.{" "}
-            <strong>
-              We should take the project of a socialist California seriously and
-              think more about DSA’s campaigns on a state-wide level, especially
-              2022 elections.
-            </strong>
-          </li>
-        </ul>
-
         <p>
-          The austerity and layoffs following 2008 upended the lives of my
-          family, friends, and community, throwing open the doors for horrendous
-          gentrification.{" "}
-          <strong>
-            In this new crisis, DSA must be ready and organized to cohere the
-            Bernie coalition to protect the lives of working-class people of all
-            backgrounds from racist capitalism.
-          </strong>
+          My commitment to labor organizing and the worker’s movement is
+          something that has deeply influenced my life. I got involved mostly
+          through WWU YDSA and supporting campus workers through the ongoing
+          effort to get Aramark off our campus. Watching and supporting
+          worker-led movements such as the Seattle teacher’s strike in 2015 to
+          the Swedish Hospital nurse’s strike in February, has made even more
+          clear to me that rank-and-file strategy is necessary. We need to
+          rebuild the once strong American and internationa labor movement, and
+          I think YDSA has the tools to do it.
         </p>
 
         <p>
-          That’s why I believe in an <strong>external-facing DSA</strong>, which
-          takes on ambitious campaigns that are rooted in and materially better
-          the lives of the working class while expanding and diversifying our
-          membership and which{" "}
-          <strong>give our members opportunities to grow</strong>. We live in an
-          incredibly uncertain time, but the more dedicated, life-long
-          socialists there are, the stronger we are for future struggles.
+          I’m running for co-chair of YDSA because I think we need to take
+          advantage of this precarious moment in history and use it to build a
+          powerful mass movement as young people, and as workers. Our generation
+          has watched as capitalism has become an incredibly unfair and
+          oppressive force. By continuing to build the larger working class
+          movement that Bernie Sanders started, we can start to create a world
+          that is beneficial to everyone.
         </p>
       </>
     ),
   },
   {
-    name: "Lindsey Moore",
-    position: "Treasurer",
-    bio: (
-      <>
-        <p>
-          <strong>
-            I’m running for Treasurer on the Bread &amp; Roses slate to ensure
-            that our chapter and its campaigns have the resources and funding
-            they need in a time of uncertainty but also unprecedented
-            opportunity for the expansion of class consciousness, rank-and-file
-            worker militancy, and fights against austerity and oppression.
-          </strong>
-        </p>
-
-        <p>
-          The past year has shown just how much we can grow and accomplish as a
-          group of dedicated comrades working selflessly towards the project of
-          building a socialist movement. DSA gained invaluable experience, as
-          well as many new organizers and activists, through the DSA for Bernie
-          campaign — and in the coming year we must work to bring what we have
-          learned and who we have reached further into the broader struggle for
-          socialism.
-        </p>
-
-        <p>
-          I joined DSA last year after a long period of political frustration,
-          and found my political home. My involvement with our chapter began
-          with designing a flyer for a Bernie canvass, and quickly led to
-          organizing phone banks, developing new organizers within our canvass
-          planning team, and helping put on the biggest canvasses in East Bay
-          DSA history.
-        </p>
-
-        <p>
-          <strong>
-            I’m proud to have developed and managed our Bernie campaign’s data
-            infrastructure, which was key to reaching as much of the Bay Area’s
-            multiracial working class as possible. The combination of
-            on-the-ground organizing and running digital operations during this
-            campaign gave me a multifaceted understanding of how well-designed
-            and maintained systems benefit socialists in our battles with the
-            capitalist class.
-          </strong>
-        </p>
-
-        <p>
-          I’m currently Co-Chair of the 2020 Committee and a member of the
-          Design Working Group and Operations Committee. My experiences working
-          alongside comrades over the last year have been some of the brightest,
-          most challenging and rewarding moments of my life, and to serve the
-          chapter as Treasurer would be an honor and privilege.
-        </p>
-      </>
-    ),
-  },
-  {
-    name: "Nick French",
-    position: "Communications Secretary",
-    bio: (
-      <>
-        <p>
-          I’m honored to run for Communications Secretary on the Bread &amp;
-          Roses slate. I joined DSA after Trump’s election, because I realized
-          only a socialist movement could stop the continued rise of the far
-          right. Since then I’ve found hope and purpose fighting alongside my
-          comrades for a better world. Over the past two years I’ve helped lead
-          our chapter’s very successful political education and communications
-          work, as a Co-Chair of the Political Education and Communications
-          Committees.
-        </p>
-
-        <p>
-          I helped build our Socialist Night School program, which regularly
-          brings in 50 or more attendees twice a month and has become a model
-          for DSA chapters across the country.
-        </p>
-
-        <p>
-          I’m also very proud of the work I’ve accomplished with comrades as
-          editor of East Bay Majority, our chapter’s official publication. We’ve
-          provided coverage and analysis of the struggles of East Bay teachers,
-          nurses, and other workers that people can’t get anywhere else.
-          Majority’s articles have been seen by tens of thousands of readers.
-          We’ve also given a platform and experience to new socialist writers
-          who have gone on to write for national publications.
-        </p>
-
-        <p>
-          I’m running for Communications Secretary because I want to empower my
-          comrades to make our successful communications work even stronger.
-          Effective communications will be even more important now, given the
-          difficulty of face-to-face organizing under COVID-19. We need to:
-        </p>
-
-        <ul>
-          <li>
-            <strong>Expand our reach</strong> through advertising and strategic
-            social media promotion
-          </li>
-          <li>
-            <strong>
-              Ramp up production of propaganda and class-struggle journalism
-            </strong>
-            , through expanding recruitment and leadership development in our
-            Communications Committee
-          </li>
-          <li>
-            <strong>Amplify workers’ struggles against oppression</strong> of
-            all kinds, in and outside the workplace
-          </li>
-          <li>
-            Continue to <strong>name our enemies</strong>: the capitalist class
-            and the capitalist system which allows them to profit off of
-            everyone else’s suffering in the midst of a global pandemic
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    name: "Andrew Richner",
-    position: "Recording Secretary",
-    bio: (
-      <>
-        <p>
-          Three years ago I walked into my first DSA meeting. Bernie had
-          politicized me. Trump got me mad enough to fight back. With DSA, I
-          found something unique—a serious, winnable path forward after Bernie’s
-          run that was pragmatic but didn’t compromise a radical vision for a
-          society free from exploitation and oppression. I joined on the spot.
-        </p>
-
-        <p>Since then, I’ve:</p>
-        <ul>
-          <li>
-            Served as{" "}
-            <strong>Co-Chair of the Member Engagement Committee</strong>
-          </li>
-          <li>
-            Headed our <strong>Mobilizers program</strong>
-          </li>
-          <li>
-            <strong>Led outreach to members</strong> during COVID-19
-          </li>
-          <li>
-            Organized <strong>distributed Bernie canvasses</strong>
-          </li>
-          <li>
-            Put on{" "}
-            <strong>
-              organizer trainings, socials, and non-voting general meetings
-            </strong>
-          </li>
-          <li>
-            Ensured the{" "}
-            <strong>smooth functioning of emails and phone banks</strong> on the
-            Operations Committee
-          </li>
-          <li>
-            Built our <strong>chapter newsletter</strong>
-          </li>
-          <li>
-            <strong>Marched, canvassed, and walked picket lines</strong>
-          </li>
-        </ul>
-        <p>
-          Bernie’s 2020 campaign has ended. Millions are newly unemployed and
-          uninsured. Bosses are demanding workers, especially Black, Latinx, and
-          women workers, risk their lives for profit. But{" "}
-          <strong>workers are organizing</strong>. We have to join the fight,{" "}
-          <strong>
-            put forward a program against austerity, and rally the Bernie
-            movement around these struggles
-          </strong>
-          .
-        </p>
-
-        <p>
-          We also need to{" "}
-          <strong>
-            expand our Mobilizers program to activate all our members and
-            supporters as political leaders and organizers in their workplaces
-            and neighborhoods
-          </strong>
-          .
-        </p>
-
-        <p>
-          DSA should become an instrument of class struggle in the hands of
-          workers.{" "}
-          <strong>
-            We build this militancy through democracy, and democracy through
-            organizing.
-          </strong>
-        </p>
-
-        <p>
-          I’m running for Recording Secretary on the Bread &amp; Roses slate
-          because I want to{" "}
-          <strong>
-            strengthen our chapter’s democracy and address the low turnout at
-            general meetings and our lack of diversity through applying
-            organizing principles
-          </strong>{" "}
-          to the administrative functions of the office. Specifically, I will:
-        </p>
-
-        <ul>
-          <li>Make meeting minutes exciting and relevant</li>
-          <li>
-            Help members understand the context of the decisions facing our
-            organization
-          </li>
-          <li>
-            Increase turnout to general meetings through phone banks and chapter
-            media
-          </li>
-          <li>
-            Make our democratic procedures accessible to all members and the
-            broader multiracial working class
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    name: "Miguel Barretto",
+    name: "Emmaline Bennet",
+    school: "Columbia-Barnard",
     position: "At-Large",
     bio: (
       <>
         <p>
-          Bernie’s campaign was key to my political activation. It finally felt
-          like there was a candidate who directly spoke to the issues I grew up
-          dealing with but felt guilty or ashamed for vocalizing. In my youth, I
-          lacked health insurance and can attest to the dread of having a
-          medical condition affecting my entire family. DSA took that sentiment
-          and turned it into action. I’m running to be an At-Large member on the
-          Steering Committee with the Bread &amp; Roses slate because I want to
-          expand and develop diversity in our organization and build connections
-          to the multiracial working class to fight for policies like Medicare
-          for All.
+          I’m a 22-year-old student at Columbia University Teachers College,
+          studying to become a history teacher. I became a socialist eight years
+          ago, radicalizing around issues of economic inequality and
+          anti-imperialist organizing. In high school, as I read more about
+          socialist theory and history, I began to understand how so many of the
+          problems we’re facing today—from deepening class inequality to climate
+          crisis to militarism to mass incarceration to repression of refugees
+          and undocumented immigrants—were all linked to capitalism, its valuing
+          of profit over human life, and its denial of any true form of freedom,
+          democracy, or self-determination to the vast majority of people.
         </p>
         <p>
-          I joined DSA late last year, looking to enact change rather than sit
-          on the sidelines and began work with the DSA for Bernie Campaign.
-          Thinking I would only work behind the scenes, I began traveling from
-          my home in Hayward to attend the canvasses DSA was organizing. Shortly
-          after, I began serving as Co-Chair of the 2020 Committee, despite
-          never having done anything like that previously. After encountering
-          people at countless doors, I’ve learned there is an enormous hunger
-          for the policies that Bernie platformed among the working class across
-          the country.
+          As soon as I entered college, I joined the Barnard-Columbia
+          Socialists, then a branch of the International Socialist Organization.
+          It was a transformative experience, giving me the opportunity to work
+          alongside some of the most committed socialist organizers in New York
+          City. Through political education, I built on my earlier
+          anti-capitalist conclusions to come to the recognition that the
+          international, multiracial working class is the key agent capable of
+          overthrowing the existing system and transforming society for the
+          better. Around that time I decided that I wanted to dedicate my life
+          to building the socialist movement, and doing everything I could to
+          bring that transformation about.
+        </p>
+
+        <p>
+          For the next two years, I was on the elected leadership of the
+          Barnard-Columbia Socialists, helping to grow our membership,
+          facilitate our political education groups, and lead our campaign work.
+          One of the most transformative experiences for me was helping to build
+          solidarity with the 2018 graduate workers' strike, which took place at
+          the same time as the massive teachers' strike wave across the country.
+          It felt like we were really part of a broad-based, rank-and-file
+          movement to re-invest in public education and decommodify higher
+          education—an experience which informed my later decision to pursue
+          rank-and-file strategy after graduation.
         </p>
         <p>
-          I know that these policies are to the benefit of the multiracial
-          working class rather than the elite few, and for that reason it will
-          be a tough road ahead. However, like any challenge, we can accomplish
-          it when we act as one, standing in solidarity. I’ve seen a
-          transformation within myself and strive to see that same change take
-          place in everyone fighting for a better world. And I'm proud that in
-          just a few months, I went from being a new member with very little
-          organizing experience to now Co-Chair of the 2020 Committee helping to
-          lead and organize.
+          When the ISO dissolved in 2019, I joined DSA immediately, and soon
+          became involved in efforts to start up a YDSA chapter at Columbia. It
+          was exciting to become part of a socialist organization which had
+          grown so rapidly in the past few years, and to get plugged into all
+          the organizing work that DSA comrades were doing throughout New York
+          City.
+        </p>
+
+        <p>
+          The following semester, I was elected to the Organizing Committee of
+          the new Columbia-Barnard YDSA chapter. With the help of other comrades
+          in the chapter, I learned more about the kinds of relational,
+          one-on-one organizing strategies that are so necessary for
+          revitalizing the labor and socialist movements. Through our DSA for
+          Bernie canvasses, we talked to students as well as members of the
+          surrounding working-class communities about demands like College for
+          All, Medicare for All, and a Green New Deal, connecting all of these
+          things to our broader vision for socialist transformation. The
+          following semester, we continued this electoral work, and also started
+          up a campaign in solidarity with the graduate workers' strike. When
+          COVID-19 hit, we ramped up our organizing efforts, intervening in
+          struggles around housing, tuition, campus labor, and the citywide rent
+          strike.
+        </p>
+
+        <p>
+          All of these experiences organizing alongside comrades at Columbia
+          have convinced me of the key role that YDSA has to play in rebuilding
+          the socialist movement. As college students, we're at a formative
+          period in our lives, potentially receptive to socialist ideas and open
+          to getting involved in organizing. As YDSA members, I think that the
+          most important task in front of us is to create as many spaces for
+          socialist political education around the country as possible--and by
+          "political education," I mean in the broadest sense of not only
+          discussing theory, politics, and history with comrades (although this
+          is critically important), but also engaging in the kinds of campaigns
+          that will give members the confidence and skills necessary to become
+          lifelong socialist organizers.
+        </p>
+
+        <p>
+          With this aim in mind, I think that YDSA, at the national level,
+          should develop a more robust political education program, launch a
+          coordinated anti-austerity campaign that links local to national
+          demands, and recommit itself to the rank-and-file strategy. I think
+          that the first two tasks are key to drawing as many people into our
+          movement as possible, and giving those members the education and
+          experience they need to become organizers in the long term. Meanwhile,
+          the rank-and-file strategy, I believe, is key to our overall vision of
+          re-integrating the labor movement and the socialist tradition, and
+          using the organized power of the working class to transform society.
+        </p>
+
+        <p>
+          Thank you for considering me as an NCC candidate, and I'm excited to
+          continue being part of this movement with all of you.
         </p>
       </>
     ),
   },
   {
-    name: "Annika Bastacky",
+    name: "Cerena Ermitanio",
+    school: "UT Austin",
     position: "At-Large",
     bio: (
       <>
         <p>
-          I'm a current At-Large Steering Committee member and a leader of our
-          chapter's Design Working Group, and I'm proud to be running with the
-          Bread &amp; Roses slate for reelection. I've been organizing in East
-          Bay DSA since 2017, and I've helped organize both external and
-          internal projects, such as:
+          I’m a 20-year-old undergraduate student at the University of Texas at
+          Austin studying International Relations and a current member of UT
+          Austin YDSA's Steering Committee and Austin DSA's Leadership
+          Committee. As a democratic socialist, I firmly believe that winning a
+          better world means organizing a multiracial, multi-gendered, and
+          multigenerational working class movement to take on the oppressive
+          systems built by and for the capitalist class.
         </p>
-
-        <ul>
-          <li>AHS Solidarity communications</li>
-          <li>Bernie art builds</li>
-          <li>Bernie canvasses</li>
-          <li>The Jovanka Beckles campaign</li>
-          <li>Canva trainings</li>
-          <li>The Design Working Group</li>
-          <li>The pilot Mobilizer program </li>
-        </ul>
-
         <p>
-          This coming year will be critical for building the mass character and
-          political analysis of the socialist movement, so it’s capable of
-          waging class struggle on a larger scale, and eventually cohering an
-          independent worker's party. Now is the time to act strategically to
-          advance our politics, develop stronger ties with (and within) the
-          labor movement, and bring Bernie activists into the fold as committed
-          organizers and lifelong socialists.{" "}
+          After growing disenchanted with progressive social justice activism,
+          which tiptoed around the issue of capitalism, I joined my university's
+          YDSA chapter and Austin DSA. I found my political home through UT
+          YDSA's efforts to put fossil fuel and military divestment at the
+          center of student activism and Austin DSA's Homes not Handcuffs
+          campaign. However, it was canvassing for the campaigns of Heidi Sloan
+          and Bernie Sanders that cemented my belief in democratic socialism,
+          and helped me realize the importance of strengthening the labor
+          movement and participating in class struggle elections in order to
+          raise class consciousness.
         </p>
 
         <p>
-          We should focus on external-facing work that diversifies and more
-          deeply unites the socialist movement with the labor movement. Let’s
-          continue building collaborative relationships with rank-and-file union
-          members in AHS, OEA, ATU 192, and other unions through strategic
-          campaigns that grow our collective power to win. Because we know that
-          unions are centers of working-class power and that politics is forged
-          in struggle, let’s build a rank-and-file pipeline in our chapter, and
-          support members’ organizing in the workplace.
+          With Bernie no longer campaigning and a looming economic depression in
+          the midst of COVID-19, the future feels uncertain for many of us. In
+          spite of this uncertainty, college students are organizing for tuition
+          refunds, housing, and protections for university workers. These fights
+          are very much connected to decommodifying and democratizing our
+          universities. Furthermore, violence waged against black and brown
+          people–including protests calling for the end of policing––by the
+          hands of police have spurred calls by students for defunding police on
+          campuses across the nation and refund services for students as a step
+          towards making our universities accessible for students of all
+          backgrounds and abilities.
+        </p>
+        <p>
+          I am running for NCC with the recognition that while these fights
+          against capital take on different forms, they all must be centered on
+          building a movement that recognizes itself as working class in order
+          to fight oppressions of all kinds. Additionally, with the Bernie
+          campaign’s success in allowing students to articulate just
+          alternatives to capitalism, YDSA has an important role in carrying
+          Bernie’s torch through mass campaigns that articulate the centrality
+          of organizing the working class.
         </p>
 
         <p>
-          In the wake of our chapter's successful and vibrant Bernie campaign,
-          it's incumbent on us to focus our resources on growing our
-          communications platforms and political education capacities. Let’s
-          celebrate the successes of the campaign, and continue drawing more
-          people to our politics through beautiful socialist propaganda and
-          strategic organizing.{" "}
-        </p>
-
-        <p>
-          The fight for socialism is a lifelong struggle, and I’d be honored to
-          serve on this year’s Steering Committee to help steer our organization
-          into the next chapter in that struggle. Solidarity!
+          While there is much uncertainty in the air, it is undeniable that
+          capitalism is the center of our suffering, and that it is up to us to
+          win the world that we seek as socialists.
         </p>
       </>
     ),
   },
   {
-    name: "Miguel Duarte",
+    name: "Nickan Fayyazi",
+    school: "UC Berkeley",
     position: "At-Large",
     bio: (
       <>
         <p>
-          I'm running for an At-Large position on the Steering Committee with
-          the Bread &amp; Roses slate. I joined DSA in 2017 and am currently a
-          Co-Chair of the Political Education Committee.
+          I am a 20-year-old student at UC Berkeley studying Engineering
+          Mathematics and Statistics, and am the co-chair of Cal YDSA. I am
+          nonbinary and use they/them or she/her pronouns. I am a
+          second-generation immigrant of Iranian and Azeri-Iranian background.
+        </p>
+        <p>
+          As an Iranian, my life has always been politicized. I identified as a
+          socialist and was an anti-imperialist from a young age, but it wasn’t
+          until the 2016 Bernie Sanders campaign that I was motivated to become
+          a socialist organizer. Going through this trajectory, one that
+          countless others have as well, helped me realize the importance of a
+          class-struggle electoral strategy. Millions of people—predominantly
+          young, working-class, and of color—were radicalized by the two Bernie
+          campaigns and are now in a position to be brought into a socialist
+          movement whose strength is unprecedented in recent American history.
+          DSA’s engagement with this class struggle campaign has given socialist
+          organizers an unprecedented opportunity to develop a mass movement of
+          the multiracial working class, but our work has only just begun.
         </p>
 
         <p>
-          Over the years, I have done everything from mobilizing new members to
-          knocking doors for the Jovanka Beckles for AD-15 and statewide rent
-          control campaigns. Last year, I was a founding Co-Chair of the Racial
-          Solidarity Committee and the PG&amp;E / Green New Deal Campaign.
+          After I began attending UC Berkeley, I joined the campus YDSA chapter
+          and East Bay DSA. In these past years, I’ve participated in
+          class-struggle electoral campaigns such as the 2020 Bernie Sanders
+          presidential campaign and the 2018 Jovanka Beckles state assembly
+          campaign; labor actions such as the AFSCME and UPTE strike of UC
+          workers and the OEA teachers’ strike in 2019; and political education
+          through our chapter reading group and a labor history discussion group
+          formed with a group of YDSA comrades throughout the East Bay.
+          Currently, I’m working on the Alameda Health System county takeover
+          campaign, the Jovanka Beckles for AC Transit campaign, and the No
+          Shortcuts reading group at both the UC and national level.
         </p>
-
-        <p>I cherish our chapter as an organizing project in itself.</p>
-
         <p>
-          <strong>
-            I'm running because I want to help build on the success of our
-            political education program and support our chapter's internal
-            democracy.
-          </strong>
-        </p>
-
-        <p>
-          We face critical new challenges. Coronavirus has tanked the economy
-          and upended the political status quo, creating both new opportunities
-          and new threats. We must demand that worker safety and health is
-          prioritized above all else.
-        </p>
-
-        <p>
-          <strong>
-            Political education is vital to our growth as organizers
-          </strong>{" "}
-          in DSA, in our unions, and in our communities. The day-to-day informs
-          our politics, but to go to the next level, to organize and fight back,
-          we need to study.
+          These experiences, each teaching me in its own way, have shaped my
+          development as an organizer and have led me to a deeper understanding
+          of what it takes to advance the socialist movement and build working
+          class power. The significant concessions won by Oakland teachers, who
+          worked to build a militant union that went on strike for the first
+          time in decades, and the inspiring work being taken up by local
+          comrades such as healthcare workers in SEIU 1021 and student workers
+          in UAW 2865, showed me the importance of pursuing a rank-and-file
+          strategy that will both strengthen the labor movement and redevelop
+          the left-labor link. As students who are set to enter the workforce in
+          the coming years, YDSA members have an integral role to play in the
+          rank-and-file strategy, and it is important that our commitment to it
+          as an organization remains strong.
         </p>
 
         <p>
-          In the coming year, I hope to help develop more introductory
-          agitational content to continue bringing new people into the
-          organization, and help develop intermediate and advanced education
-          modules to support experienced members in deepening and broadening
-          their knowledge.
+          Beyond my organizing experiences, my life experience, too, has shaped
+          my values. As a person of color, I know first-hand the need for
+          anti-racism to be a core component of socialist organizing, and the
+          broader need to bring communities of color—which, being
+          disproportionately working-class, collectively suffer the impacts of
+          both racism and classism—into an organization that remains
+          disproportionately white and inaccessible to many socialists of color.
+          The youth of this country are its most diverse cohort; YDSA must
+          recognize this and take the initiative to work toward this goal on
+          multiple levels—through intentional recruitment and expansion of
+          chapters in high schools, community colleges, and HBCUs, as well as
+          through a definitive commitment to anti-racist organizing.
         </p>
 
         <p>
-          The path forward is uncertain, but we know successful class struggle
-          relies on respectful and honest debate, discussion, and study.{" "}
-          <strong>We must strengthen our chapter’s democracy</strong> and help
-          members connect with the political life of the chapter at all levels.{" "}
-          <strong>
-            We must also redouble our recruitment efforts and diversify our
-            membership.
-          </strong>
-        </p>
-
-        <p>
-          I'm proud of our chapter's ability to balance theory and practice, and
-          I hope to build on this tradition moving forward as an At-Large member
-          of our Steering Committee.
+          These convictions are the same ones that have led me to run for NCC. I
+          want to see YDSA take an active role in labor work, class struggle
+          electoral campaigns, and anti-racist work. I want to see YDSA grow
+          into an even stronger force than it is today, leading a revitalized
+          youth movement that will become the broader mass multiracial
+          working-class movement of the future.
         </p>
       </>
     ),
   },
   {
-    name: "Katy Scott-Smith",
+    name: "Griffin Mahon",
+    school: "University of Virginia",
     position: "At-Large",
     bio: (
       <>
         <p>
-          I’m running for At-Large on the Bread &amp; Roses slate in order to
-          lead based on a strategy of mass movement building. In early 2019, I
-          began work on our chapter’s Bernie campaign.{" "}
-          <strong>
-            I led the Big Canvass Team and trained dozens of new organizers.
-          </strong>{" "}
-          I’m currently a Co-Chair of the 2020 Committee (Electoral Committee),
-          and a member of the Endorsements Subcommittee. Prior to the Bernie
-          campaign,{" "}
-          <strong>I helped to write the “Let’s Own PG&amp;E” website</strong>,
-          and worked on the 2018 Jovanka Beckles and statewide rent control
-          campaigns. Outside of DSA, I work as a State employee to regulate
-          insurance companies, where I’m a steward in my union. I live in
-          Oakland and am a proud lesbian.
+          I’m a 24-year-old history student at the University of Virginia, where
+          I transferred last year. During the last year I was the Vice Chair of
+          our YDSA chapter.
         </p>
         <p>
-          This coming year will be a challenge for our chapter and for the world
-          at large. COVID-19 is exacerbating the preexisting structural
-          inequalities in our system. Due to these conditions workers are
-          fighting back, so{" "}
-          <strong>we must prioritize supporting worker militancy</strong>. We
-          should do this through embedding socialists in the rank and file, and
-          through external support for labor actions (such as strike support
-          campaigns, and the Emergency Workplace Organizing Committee). At the
-          same time, we need to campaign for class-struggle candidates who will
-          amplify workers’ struggles, and push for policies that materially aid
-          the working class.
+          I joined DSA after the inauguration in 2017. My first instinct was to
+          try to start a chapter where I lived, and a few weeks later I was
+          sitting in a room full of strangers discussing the politics of
+          Fredericksburg during the time of Trump. This first experience --
+          which honestly didn’t require much effort -- was incredibly exciting!
+          Two Sanders campaigns and a series of social movements have proven
+          that there is a base for socialist politics in the United States. But
+          as recent strike actions and DSA’s electoral victories have also
+          demonstrated, only organizing can combine people’s ideas and interests
+          into power.
+        </p>
+
+        <p>
+          When the COVID-19 pandemic began, I was asked to be on the steering
+          committee tasked with handling DSA’s response to the emergency. As the
+          committee’s YDSA representative, I and a team of volunteers tried to
+          get in touch with all of our organization’s leaders. The process was
+          an instructive learning experience: most never got back to us, and
+          some had never even heard from the national office before.
         </p>
         <p>
-          We should remain an externally focused organization that is committed
-          to diversifying our socialist movement and rooting it in the
-          multiracial working class. Our chapter brought in hundreds of new
-          activists through our Bernie campaign, and reached tens of thousands
-          of people in the East Bay.{" "}
-          <strong>
-            We should help these new activists develop, and work to bring in
-            those who we reached through canvassing
-          </strong>
-          . I will aim to make sure our chapter is a welcoming space — one which
-          prioritizes mentorship of organizers, political education, and
-          comradely political debate.
-        </p>{" "}
+          The ongoing mass protests against police brutality are a reminder that
+          social movements can erupt unexpectedly. Without more internal
+          coordination, YDSA’s ability to effectively intervene in moments like
+          these will be limited. This coordination can only result from the NCC
+          and chapters working on similar projects, which requires a shared
+          understanding of what socialism means and how we fight for it.
+        </p>
+
+        <p>
+          I believe socialism means the working class governing society and
+          think everyone in YDSA should have the opportunity to participate in
+          the transformative experience of democracy, of making thoughtful
+          collective decisions. To self-govern we need to know what our
+          political goals are and how we think we can achieve them, consider and
+          evaluate different objectives and proposals with each other, and
+          commit to building the socialist movement. For our members to
+          experience democracy, we need political education on the history of
+          the socialist movement in America and on the politics and economics of
+          our society today. My belief in the importance of political education
+          is why I’ve helped edit{" "}
+          <ExternalLink href="https://y.dsausa.org/the-activist/">
+            the Activist
+          </ExternalLink>{" "}
+          this year (write for us!). Everyone in YDSA should feel confident
+          offering their opinions on the direction of our organization.
+        </p>
+
+        <p>
+          I’m running for YDSA’s National Coordinating Committee because I want
+          to help build a YDSA with a chapter on every campus in the country.
+          And I think socialists should hold each other, especially our elected
+          leaders, to a high standard -- the standard of comrade -- which I hope
+          to meet.
+        </p>
       </>
     ),
   },
   {
-    name: "Luke Thibault",
+    name: "Dahlia Wilson",
+    school: "Albany High School",
     position: "At-Large",
     bio: (
       <>
         <p>
-          I am a proud democratic socialist. I believe that the road to
-          socialism is a democratic one that brings together the vast
-          working-class majority into open struggle against the capitalist
-          class. This requires struggles for state power with working-class
-          demands and mass politics. It requires building a militant, left-wing,
-          and democratic labor movement. And it requires that we orient our
-          politics to those who are not yet class conscious.
+          My name is Dahlia Wilson (they/them) and I am the co-chair of Albany
+          High School YDSA. As a Marxist and and a feminist, I believe that the
+          forces inherent to capitalism are fundamental barriers to a just
+          world. The working class is locked in struggle with the capitalist
+          class and the path to a society founded on solidarity, progress, and
+          human flourishing must be paved with working class resistance.
+        </p>
+        <p>
+          After becoming a socialist two years ago, I joined East Bay DSA,
+          founded a YDSA at my high school, and committed myself to organizing
+          class struggle campaigns in the East Bay. Through my participation in
+          East Bay DSA’s Social Housing Committee and support for the Oakland
+          teachers’ strike, I saw the power of militant organizing, coalition
+          building, and a united multiracial working class. I learned what it
+          means to be a comrade and to be bound to someone else by a shared
+          commitment to the lifelong struggle for socialism.
         </p>
 
         <p>
-          My experiences with East Bay DSA over the past few years — the Jovanka
-          Beckles assembly race, the Oakland teachers strike, and the Bernie
-          campaign — have shown me that strategic campaigns require an effective
-          organization with clear priorities. Our chapter is capable of
-          incredible things when we pool our resources into truly collective
-          action, and prioritize work that has broad consensus. The same has
-          been true in my experience on the national Medicare for All campaign
-          Steering Committee, supporting other chapters across the country. If
-          elected, I intend to lead with this perspective.
+          Our chapter at Albany High School is just one year old but we have
+          already accomplished incredible things. We canvassed and phone banked
+          weekly for Bernie Sanders, fostered political education and leadership
+          development through a combination of chapter-wide discussions,
+          targeted 1-on-1 organizing, and outward-facing events, and played an
+          important role in organizing a regional group for YDSA organizers from
+          across the East Bay to share skills, resources, and political
+          strategy.
+        </p>
+        <p>
+          I’m running for NCC because I want high-schoolers across the country
+          to have the opportunities I had to grow as a socialist organizer.
+          Young people today are facing a raw deal. We are growing up with the
+          knowledge that we will be swamped in student debt for our lifetimes,
+          forced to compete on a hostile job market marked by falling wages,
+          plummeting rates of unionization, and a future cut short by the
+          catastrophic effects of climate change. This is a profoundly
+          radicalizing time to be a teenager. High school YDSAs have the unique
+          opportunity to organize the students from a variety of backgrounds and
+          offer them a solution rooted in solidarity and a material analysis:
+          the shared fight for a world without capitalism.
         </p>
 
         <p>
-          Outside of DSA, I work for a union that represents public sector
-          workers across the Bay Area, and their fights for health and safety
-          during this pandemic demonstrate the importance of the rank-and-file
-          strategy. As a gay man, I know that there is no social justice without
-          economic justice, and that fighting oppression requires class unity
-          around classwide demands.
+          I believe that the rank-and-file strategy, which seeks to rebuild the
+          militant core of the labor movement, is key to building worker power
+          and winning a better world. By exposing high schoolers to radical
+          labor organizing strategies, we can prepare students to organize their
+          workplaces after graduation, building up worker-led, democratic unions
+          wherever they go.
         </p>
 
         <p>
-          I am running for At-Large on the Bread &amp; Roses slate because I
-          believe that we must continue building our chapter’s power through
-          class-struggle campaigns, the rank-and-file strategy, and strong
-          internal democracy. And because we must lay the groundwork for what we
-          need to eventually win democratic socialism: a mass independent party
-          of the working class. As a member of the Political Education
-          Committee, I am excited to build up our Night School program with more
-          advanced classes.
+          We have a long struggle ahead of us but it is one that we can win by
+          recognizing that our power lies in the multiracial working class,
+          advancing a strategy to build that power through rank-and-file
+          organizing and, as I think Bernie said best, fighting for someone we
+          don’t know.
         </p>
       </>
     ),
@@ -711,24 +598,19 @@ class Candidates2020 extends React.Component {
       groups[groups.length - 1].candidates.push(candidate)
     })
 
-    // shuffle candidates within each group
-    for (let i = 0; i < groups.length; i++) {
-      groups[i].candidates = shuffle(groups[i].candidates)
-    }
-
     return groups
   }
 
   render() {
     return (
       <Layout
-        title="2020 Steering Committee Candidates"
+        title="2020 YDSA Summer Convention"
         color="red"
         heroImageName="index"
         layoutClassName="home"
       >
         <SEO
-          title="East Bay DSA 2020 Steering Committee Candidates"
+          title="2020 YDSA Summer Convention Slate &amp; Resolutions"
           ogImage="home"
         />
 
@@ -756,6 +638,7 @@ class Candidates2020 extends React.Component {
                     />
                     <div className="candidate-card__content">
                       <h3>{candidate.name}</h3>
+                      <h4>{candidate.school}</h4>
                       <Button>Read more&hellip;</Button>
                     </div>
                   </div>
@@ -767,274 +650,239 @@ class Candidates2020 extends React.Component {
 
         <div className="content-column">
           <Element name="priorities" id="priorities">
-            <h2>Vote May 17–23!</h2>
-            <p>Check your inbox for details from our chapter leadership.</p>
-            <h2>Hear from us at the Candidate Forum!</h2>
+            <h2>Summer Convention is July 31 - August 1</h2>
             <p>
-              <strong>Steering Committee Candidate Forum</strong>
-              : May 16th 1:00PM-3:30PM
-              <br />
-              <Button style={{ marginTop: 10 }}>
-                <ExternalLink href="https://www.eastbaydsa.org/events/1288/2020-05-16-may-general-meeting-and-steering-committee-candidate-forum/">
-                  RSVP Here
-                </ExternalLink>
-              </Button>
-            </p>
-
-            <MailChimpSignUp />
-
-            <p>
-              Our chapter’s Bernie campaign led the way to Bernie’s victory in
-              the East Bay, brought in new leaders, developed new tactics, and
-              proved that democratic socialism can rally the multiracial working
-              class.
-            </p>
-
-            <p>
-              Since Bernie’s California victory, things have drastically changed
-              and we’re now in the middle of a global pandemic and economic
-              depression. The powerful are pushing an agenda of privatization
-              and corporate bailouts on the one hand and blaming and oppressing
-              immigrants and people of color on the other while millions of
-              working-class people will die from lack of healthcare.
-            </p>
-
-            <p>
-              But the working class is fighting back! Frontline workers are
-              organizing for better protections and hazard pay, and tenants are
-              withholding rent. Bernie’s campaign inspired millions and the
-              COVID-19 crisis has radicalized millions more.{" "}
-              <strong>
-                Our task is to merge these into a single, multiracial,
-                working-class movement against racism and oppression and for
-                democratic socialism.
-              </strong>
-            </p>
-
-            <h2>1. Rank-and-File Worker Power!</h2>
-            <p>
-              We should rebuild a militant, democratic, and left-wing labor
-              movement by developing rank-and-file worker-leaders permanently
-              organizing in the workplace.
-            </p>
-
-            <ul>
-              <li>
-                <strong>
-                  Build a rank-and-file jobs pipeline in our chapter
-                </strong>
-                , organizing ourselves into strategic industries, supporting
-                graduating YDSA activists in getting rank-and-file jobs, and
-                supporting members entering the labor movement
-              </li>
-              <li>
-                <strong>
-                  Support the{" "}
-                  <ExternalLink href="https://jacobinmag.com/2020/04/united-electrical-workers-dsa-workplace-organizng-coronavirus/">
-                    Emergency Worker Organizing Committee
-                  </ExternalLink>{" "}
-                  (EWOC)
-                </strong>{" "}
-                in helping workers organizing during COVID-19
-              </li>
-              <li>
-                <strong>Continue local solidarity work</strong> alongside OEA
-                teachers, SEIU 1021 healthcare workers, and AC Transit workers
-                of ATU 192 and promote new organizing, like Tartine Union and
-                others
-              </li>
-            </ul>
-            <h2>2. Fight Racism and Oppression</h2>
-            <p>
-              Solidarity means{" "}
-              <ExternalLink href="https://jacobinmag.com/2018/11/democratic-socialism-class-organizing-racism-sexism">
-                uniting the multiracial working class
+              Check out the{" "}
+              <ExternalLink href="https://y.dsausa.org/2020convention/">
+                YDSA Summer Convention
               </ExternalLink>{" "}
-              against oppression and exploitation. We must demand universal
-              programs that guarantee Black and Brown people housing, food,
-              medical care, education, and the full fruits of their labor — and
-              confront oppression by fighting to defend and expand reproductive
-              rights, end housing and job discrimination, and win open borders
-              and end deportations.
+              page for more information.
             </p>
-
-            <ul>
-              <li>
-                <strong>Prioritize diversifying East Bay DSA</strong> by
-                building YDSA chapters at community colleges, placing socialists
-                in rank-and-file jobs alongside the multiracial working class,
-                and recruiting from our Bernie contacts
-              </li>
-              <li>
-                <strong>
-                  Build campaigns to tackle capitalist racism head-on
-                </strong>
-                , like our Classroom Justice Campaign against school closures
-                and our AHS Solidarity campaign
-              </li>
-              <li>
-                <strong>
-                  Build the strength of labor{" "}
-                  <ExternalLink href="https://jacobinmag.com/2019/01/los-angeles-teachers-strike-antiracism-unions">
-                    to win anti-racist demands
-                  </ExternalLink>
-                </strong>{" "}
-                and protect frontline workers
-              </li>
-              <li>
-                <strong>Integrate anti-oppression politics</strong> into all our
-                campaigns, communications, and political education
-              </li>
-            </ul>
-            <h2>3. Fight Austerity and Privatization</h2>
+            <h2>
+              Hear from us at the YDSA Bread &amp; Roses Candidate and
+              Resolutions forum!
+            </h2>
             <p>
-              As a depression economy takes hold, we can expect a wave of
-              corporate bailouts, budget cuts, and privatizations, even as a
-              lack of strong public programs cost lives before COVID-19. Only an
-              organized movement alongside our allies in public sector unions
-              can reverse this destruction of the public good.
+              <strong>
+                YDSA Bread &amp; Roses Candidate and Resolutions forum
+              </strong>
+              : Date and Time TBD
+              <br />
+              {/* <Button style={{ marginTop: 10 }}>
+                <ExternalLink href="">RSVP Here</ExternalLink>
+              </Button> */}
             </p>
 
-            <ul>
-              <li>
-                <strong>Fight budget cuts</strong> in Oakland Unified School
-                District and the Alameda Health System
-              </li>
-              <li>
-                <strong>
-                  Win{" "}
-                  <ExternalLink href="https://www.schoolsandcommunitiesfirst.org/">
-                    Schools and Communities First
-                  </ExternalLink>
-                </strong>{" "}
-                in November
-              </li>
-              <li>
-                <strong>Develop local strategic campaigns</strong> against
-                austerity and privatization
-              </li>
-              <li>
-                <strong>
-                  Organize tenants and the unemployed and underemployed
-                </strong>{" "}
-                against landlords and billionaires and leverage their power to
-                demand rent forgiveness, eviction moratoriums, fully-funded
-                universal social programs, and a jobs guarantee with a living
-                wage
-              </li>
-            </ul>
-            <h2>4. Message Towards the Masses</h2>
+            {/* <MailChimpSignUp /> */}
+            <p>MAILCHIMP FORM HERE</p>
+
             <p>
-              Through our communications and political education, we need to win
-              Bernie supporters and rank-and-file workers to our long-term
-              vision and get them involved in the socialist project.
+              We are living through unprecedented times in American history. A
+              democratic socialist nearly won the Democratic presidential
+              primary earlier this year, earning the enthusiasm of students
+              everywhere. Then, the COVID-19 pandemic crashed into our
+              privatized healthcare system and millions were laid off in its
+              wake. Now, massive and militant protests against police violence
+              have broken out in every state in the country.
             </p>
 
-            <ul>
-              <li>
-                <strong>
-                  Develop{" "}
-                  <em>
-                    <ExternalLink href="https://eastbaymajority.com/">
-                      Majority
-                    </ExternalLink>
-                  </em>{" "}
-                  into a powerhouse
-                </strong>{" "}
-                that competes with local media and reaches a broader audience
-              </li>
-              <li>
-                <strong>
-                  Expand our capacity for investigative journalism and
-                  multimedia
-                </strong>{" "}
-                and creating more social media shareables
-              </li>
-              <li>
-                <strong>Earn press coverage</strong> for our campaigns and
-                actions
-              </li>
-              <li>
-                Expand our Socialist Night School programming to include panel
-                discussions and advanced programming and emphasize highlighting
-                international perspectives
-              </li>
-            </ul>
-            <h2>5. Build a Multiracial, Democratic DSA</h2>
             <p>
-              We need a mass organization that can carry out the mass politics
-              we believe in. Bernie’s campaign demonstrated that democratic
-              socialism can mobilize the multiracial working class, but East Bay
-              DSA’s composition doesn’t reflect that. Growing DSA also requires
-              us to make our chapter more democratic and give members control
-              over substantive decisions.
+              <strong>
+                YDSA should be the organization that students and young people
+                look to and join to make sense of our moment and learn how to
+                organize for democracy and equality.
+              </strong>{" "}
+              And YDSA should be a launchpad for young socialists, preparing
+              them to organize in DSA long after they finish school.
             </p>
 
-            <ul>
-              <li>
-                <strong>Launch a recruitment campaign</strong>, specifically to
-                diversify the chapter.
-              </li>
-              <li>
-                <strong>
-                  Expand our Spanish-speaking capacities and multilingual
-                  materials
-                </strong>{" "}
-                to reach a broader audience.
-              </li>
-              <li>
-                <strong>Build leadership development engines</strong> that
-                promote the development of non-white and non-male leaders.
-              </li>
-              <li>
-                <strong>Expand our mobilizers program</strong> to check on our
-                members and contacts during COVID-19, plug them into campaigns
-                and political education, and activate them as socialist
-                organizers while continuing our organizer trainings.
-              </li>
-              <li>
-                <strong>Take an organizing approach to our democracy</strong> by
-                actively turning out members to General Meetings and looping
-                them into debates.
-              </li>
-            </ul>
-            <h2>6. Bigger than Bernie</h2>
             <p>
-              Over 2 million Californians voted for Bernie in 2020. Through
-              DSA’s Bernie campaign we spoke to over five thousand Bernie
-              supporters throughout the East Bay and hundreds have joined DSA
-              since Bernie suspended his campaign. For those inspired by that
-              campaign, who fought for someone they didn’t know, DSA is their
-              political home. Our job is to welcome them home.
+              Since Bernie Sanders’s 2016 campaign, YDSA has grown rapidly,
+              bringing students all around the country together in the fight for
+              socialism. Through campaigns like College for All, YDSA for
+              Bernie, and our coronavirus response, we’ve grown to 115 chapters
+              engaged in local and national fights. In the last year, we’ve also
+              created a thriving publication, The Activist, and a syllabus for
+              night schools.
             </p>
 
-            <ul>
+            <p>
+              But every year, some members of YDSA graduate. This high turnover
+              demands more organizing support from national leadership and a
+              shared strategy about how students can contribute to the class
+              struggle.{" "}
+              <strong>
+                As Marxists, we believe that although students have an important
+                role to play, only the working class can build socialism.
+              </strong>{" "}
+              Students as a group are transient and heterogenous, but the
+              working class is an absolute majority and can fatally disrupt
+              profit-making. While the majority of YDSA members are individually
+              working-class, we are not representative of the working class’s
+              diversity and we remain largely separate from the labor movement.
+            </p>
+
+            <p>
+              YDSA must work to elevate class consciousness on and around
+              campuses, and bring students into struggles that will provide them
+              with the knowledge and skills necessary to organize after
+              completing their degree. Currently, YDSA lacks the centralization,
+              coordination, and organizational structure to recruit effectively,
+              carry out widespread political education, and develop leaders.{" "}
+              <strong>
+                The Summer 2020 Convention is an opportunity to think seriously
+                about how we can achieve these goals:
+              </strong>{" "}
+              We can decide on a path for YDSA that meets our political moment
+              and, long-term, sets us on track to grow and cohere into the youth
+              wing of a mass socialist workers’ party.
+            </p>
+
+            <p>
+              <strong>
+                Above all, YDSA’s mission must be to make, train, and keep young
+                socialists.
+              </strong>{" "}
+              To that end, Bread and Roses members in YDSA are putting forward
+              our vision for YDSA through the following resolutions and a slate
+              of socialist organizers who are dedicated to building YDSA into
+              the disciplined and effective organization we know it can be.
+            </p>
+
+            <h2>Develop and Implement Comprehensive Political Education</h2>
+            <p>
+              In order to respond effectively to this current crisis and chart a
+              positive path forward, we must understand how capitalism works.
+              Our members should be familiar with the history of socialists
+              before us — what they tried, why they disagreed with each other,
+              when they failed and when they made progress. Political education
+              among comrades empowers our members to participate in YDSA and
+              intervene in current events, and gives members the skills and
+              perspectives necessary to become lifelong socialist organizers.
+            </p>
+
+            <p>
+              This past year, YDSA’s National Political Education Committee
+              compiled readings and discussion questions, provided trainings on
+              running night schools, and published The Activist. We hope to
+              further develop and implement robust political education through
+              the NPEC and its relationship with chapters and members.
+            </p>
+
+            <p>
+              Read more about political education:{" "}
+              <ExternalLink href="https://socialistcall.com/2019/07/26/dsa-political-education-night-school/">
+                Brains and Brawn in DSA
+              </ExternalLink>{" "}
+            </p>
+
+            <p>
+              Read our political education resolution: Developing a Robust
+              National Political Education Program
+            </p>
+
+            <h2>Recommit to the Rank-and-File Strategy</h2>
+            <p>
+              As Marxists, we believe that the working class is the agent of
+              change that can achieve socialism and that socialists need to
+              prioritize rebuilding the independent fighting capacity of the
+              working class. We subscribe to the{" "}
+              <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing/">
+                rank-and-file strategy
+              </ExternalLink>{" "}
+              strategy which states that socialists should focus on identifying
+              and developing a layer of rank-and-file leaders who can organize
+              in the workplace on a day-to-day basis.
+            </p>
+
+            <p>
+              The best way for YDSA to engage in the rank-and-file strategy is
+              to re-establish a National Labor Committee with two primary tasks:
+            </p>
+
+            <ol>
               <li>
-                <strong>Unite Bernie supporters</strong> by adopting{" "}
-                <ExternalLink href="https://bernie.dsausa.org/issues">
-                  Bernie's platform
-                </ExternalLink>{" "}
-                as DSA’s and encouraging partner organizations to co-sign this
-                platform.
+                Work with the NPEC to develop political education on the
+                centrality of the labor movement to socialist struggle, and
               </li>
               <li>
-                <strong>Recruit Bernie activists and supporters</strong> we
-                identified through the campaign into DSA.
+                Build a pipeline to encourage YDSAers to get rank-and-file jobs
+                in strategic sectors after graduating, and support those already
+                interested.
               </li>
-              <li>
-                <strong>
-                  Develop a roadmap to form an{" "}
-                  <ExternalLink href="https://www.jacobinmag.com/2016/12/socialist-party-bernie-sanders-labor-capitalism/">
-                    independent working-class party
-                  </ExternalLink>
-                </strong>{" "}
-                in partnership with Bernie coalition organizations.
-              </li>
-              <li>
-                <strong>Recruit DSA members and allies</strong> to run for
-                office in 2022.
-              </li>
-            </ul>
+            </ol>
+
+            <p>
+              Read more on the rank-and-file strategy in YDSA: Students and
+              Strikes:{" "}
+              <ExternalLink href="https://y.dsausa.org/the-activist/students-and-strikes-why-ydsa-needs-the-rank-and-file-strategy/">
+                Why YDSA Needs the Rank and File Strategy
+              </ExternalLink>{" "}
+            </p>
+
+            <p>
+              Read our Rank-and-File Strategy resolution: Establishing a
+              Rank-and-File Pipeline
+            </p>
+
+            <h2>For a Central Tasks and Perspectives</h2>
+            <p>
+              YDSA’s membership has skyrocketed, but not without some growing
+              pains. The connections between chapters and the national
+              organization are loose, political development remains uneven from
+              chapter to chapter, and though we’ve adopted radical and
+              meaningful stances on many issues, our goals and our vision as an
+              organization are still unclear. If we want to overcome the liberal
+              influence of issue-based campus activism and the implicit
+              instability caused by turnover at colleges and universities, we
+              need to build a strong, formidable, and lasting organization with
+              clear priorities and structures. In doing so we can develop
+              lifelong militants who understand our immediate struggles as part
+              of a much broader strategy for building a socialist future.
+            </p>
+
+            <p>
+              By adopting a national Tasks and Perspectives Document through an
+              open and democratic process, we can move toward a collective
+              understanding of our purpose as an organization and better
+              coordinate around our shared goals. This document will draw on the
+              resolutions passed at the 2020 convention, and will therefore
+              reflect the will of the organization's highest democratic body and
+              give chapters a framework for their own local campaigns.
+            </p>
+
+            <p>
+              Read our tasks and perspectives resolution: Adopting a National
+              Tasks and Perspectives Document for YDSA
+            </p>
+
+            <h2>Grow and Diversify</h2>
+            <p>
+              Students have played an important role in socialist movements in
+              the past, but they can’t transform our society alone. Only a mass
+              movement of class-conscious workers can build socialism. To help
+              create this movement, YDSA needs to expand and diversify. We
+              should start with historically Black colleges and universities, as
+              well as other minority-serving institutions, community colleges,
+              and high schools.
+            </p>
+
+            <p>
+              Our next National Coordinating Committee should prioritize growth
+              and diversification. They can do this by providing resources and
+              trainings to YDSA and DSA chapters on how to help form chapters on
+              nearby campuses, strengthening the relationship between YDSA
+              chapters and their local DSA chapter, and surveying YDSA members
+              already attending these institutions. It is essential that DSA’s
+              National Political Committee hires another full-time staffer for
+              YDSA to carry out this work, and they should strongly consider
+              hiring an organizer who is a person of color.
+            </p>
+
+            <p>
+              Read our Growth and Diversification resolution here: Growth and
+              Diversification
+            </p>
           </Element>
         </div>
 
@@ -1046,7 +894,9 @@ class Candidates2020 extends React.Component {
         >
           {this.state.candidate && (
             <>
-              <h2>{this.state.candidate.name}</h2>
+              <h2>
+                {this.state.candidate.name}, {this.state.candidate.school}
+              </h2>
               <h3>{this.state.candidate.position}</h3>
               <CandidatePhoto
                 img={this.image(this.state.candidate)}
@@ -1067,9 +917,7 @@ const CandidatePhoto = ({ img, alt }) => (
 
 export const query = graphql`
   query Convention2020HeadshotsQuery {
-    allFile(
-      filter: { absolutePath: { glob: "**/headshots/convention-2020/*" } }
-    ) {
+    allFile(filter: { absolutePath: { glob: "**/headshots/ydsa-2020/*" } }) {
       edges {
         node {
           name

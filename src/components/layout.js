@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 import { Layout as AntLayout, Icon } from "antd"
 import Helmet from "react-helmet"
-import LanguageBar from "../components/language-bar"
 
 import Logo from "../images/logo.svg"
 import Header from "./header"
@@ -20,14 +19,7 @@ import ExternalLink from "./external-link"
 import "antd/dist/antd.less"
 import "./layout.scss"
 
-const Layout = ({
-  title,
-  color,
-  children,
-  heroImageName,
-  layoutClassName,
-  languageBarSettings,
-}) => (
+const Layout = ({ title, color, children, heroImageName, layoutClassName }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -69,12 +61,11 @@ const Layout = ({
           <div className="logo-container">
             <Link to="/">
               <Logo className="logo" />
-              <div className="logo-east-bay">East Bay DSA</div>
+              <div className="logo-local">YDSA</div>
             </Link>
           </div>
           <TopNav menuLinks={data.site.siteMetadata.menuLinks} />
           <Hero title={title} color={color} imageName={heroImageName} />
-          {languageBarSettings && <LanguageBar {...languageBarSettings} />}
           <AntLayout.Content>{children}</AntLayout.Content>
         </AntLayout>
       </>
