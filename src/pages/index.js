@@ -3,7 +3,6 @@ import { Element } from "react-scroll"
 import { Modal, Button } from "antd"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -779,9 +778,9 @@ class Candidates2020 extends React.Component {
 
             <p>
               Read our political education resolution:{" "}
-              <Link to="/resolutions/#national-political-education">
+              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-political-education">
                 Developing a Robust National Political Education Program
-              </Link>
+              </a>
             </p>
 
             <h2>Recommit to the Rank-and-File Strategy</h2>
@@ -825,9 +824,9 @@ class Candidates2020 extends React.Component {
 
             <p>
               Read our Rank-and-File Strategy resolution:{" "}
-              <Link to="/resolutions/#rank-and-file-pipeline">
+              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#rank-and-file-pipeline">
                 Establishing a Rank-and-File Pipeline
-              </Link>
+              </a>
             </p>
 
             <h2>For a Central Tasks and Perspectives</h2>
@@ -858,9 +857,9 @@ class Candidates2020 extends React.Component {
 
             <p>
               Read our tasks and perspectives resolution:{" "}
-              <Link to="/resolutions/#national-tasks-and-perspectives">
+              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-tasks-and-perspectives">
                 Adopting a National Tasks and Perspectives Document for YDSA
-              </Link>
+              </a>
             </p>
 
             <h2>Grow and Diversify</h2>
@@ -888,9 +887,9 @@ class Candidates2020 extends React.Component {
 
             <p>
               Read our Growth and Diversification resolution here:{" "}
-              <Link to="/resolutions/#growth-and-diversification">
+              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#growth-and-diversification">
                 Growth and Diversification
-              </Link>
+              </a>
             </p>
           </Element>
         </div>
