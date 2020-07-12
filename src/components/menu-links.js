@@ -30,7 +30,7 @@ class MenuLinks extends React.Component {
     return (
       <ul>
         <li>
-          <Link to="/">2020 NCC Candidates</Link>
+          <Link to="/">2020 NCC Candidates &amp; Priorities</Link>
         </li>
         <li>
           <Link to="/resolutions/">2020 Resolutions</Link>

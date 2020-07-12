@@ -13,7 +13,7 @@ const Platform = () => (
       <h2>Our Proposals</h2>
       <ul>
         <li>
-          <InternalLink to="national-tasks-document">
+          <InternalLink to="national-tasks-and-perspectives">
             Adopting a National Tasks and Perspectives Document for YDSA
           </InternalLink>
         </li>
@@ -36,7 +36,10 @@ const Platform = () => (
     </div>
 
     <div className="content" id="wws">
-      <Element name="national-tasks-document" id="national-tasks-document">
+      <Element
+        name="national-tasks-and-perspectives"
+        id="national-tasks-and-perspectives"
+      >
         <h2>Adopting a National Tasks and Perspectives Document for YDSA</h2>
         <h3>
           <strong>Sponsor:</strong> Kristen Cervero, NYU YDSA
