@@ -666,11 +666,13 @@ class Candidates2020 extends React.Component {
               <strong>
                 YDSA Bread &amp; Roses Candidate and Resolutions forum
               </strong>
-              : Date and Time TBD
+              : July 26th at 4pm ET/1pm PT
               <br />
-              {/* <Button style={{ marginTop: 10 }}>
-                <ExternalLink href="">RSVP Here</ExternalLink>
-              </Button> */}
+              <Button style={{ marginTop: 10 }}>
+                <ExternalLink href="https://zoom.us/meeting/register/tJMsceitpzguHdWcK5kHRN0_SyQLZ5qFxrgM">
+                  RSVP Here
+                </ExternalLink>
+              </Button>
             </p>
 
             {/* <MailChimpSignUp /> */}
