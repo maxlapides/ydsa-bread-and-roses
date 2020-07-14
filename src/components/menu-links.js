@@ -36,6 +36,11 @@ class MenuLinks extends React.Component {
           <Link to="/resolutions/">2020 Resolutions</Link>
         </li>
         <li>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
+            Support Our Slate
+          </ExternalLink>
+        </li>
+        <li>
           <ExternalLink href="https://breadandrosesdsa.org/">
             Bread &amp; Roses DSA
           </ExternalLink>

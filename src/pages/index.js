@@ -674,9 +674,6 @@ class Candidates2020 extends React.Component {
                 </ExternalLink>
               </Button>
             </p>
-
-            {/* <MailChimpSignUp /> */}
-
             <p>
               We are living through unprecedented times in American history. A
               democratic socialist nearly won the Democratic presidential
@@ -686,7 +683,6 @@ class Candidates2020 extends React.Component {
               wake. Now, massive and militant protests against police violence
               have broken out in every state in the country.
             </p>
-
             <p>
               <strong>
                 YDSA should be the organization that students and young people
@@ -696,7 +692,6 @@ class Candidates2020 extends React.Component {
               And YDSA should be a launchpad for young socialists, preparing
               them to organize in DSA long after they finish school.
             </p>
-
             <p>
               Since Bernie Sanders’s 2016 campaign, YDSA has grown rapidly,
               bringing students all around the country together in the fight for
@@ -706,7 +701,6 @@ class Candidates2020 extends React.Component {
               created a thriving publication, <em>The Activist</em>, and a
               syllabus for night schools.
             </p>
-
             <p>
               But every year, some members of YDSA graduate. This high turnover
               demands more organizing support from national leadership and a
@@ -722,7 +716,6 @@ class Candidates2020 extends React.Component {
               working-class, we are not representative of the working class’s
               diversity and we remain largely separate from the labor movement.
             </p>
-
             <p>
               YDSA must work to elevate class consciousness on and around
               campuses, and bring students into struggles that will provide them
@@ -738,7 +731,6 @@ class Candidates2020 extends React.Component {
               and, long-term, sets us on track to grow and cohere into the youth
               wing of a mass socialist workers’ party.
             </p>
-
             <p>
               <strong>
                 Above all, YDSA’s mission must be to make, train, and keep young
@@ -749,7 +741,6 @@ class Candidates2020 extends React.Component {
               of socialist organizers who are dedicated to building YDSA into
               the disciplined and effective organization we know it can be.
             </p>
-
             <h2>Develop and Implement Comprehensive Political Education</h2>
             <p>
               In order to respond effectively to this current crisis and chart a
@@ -761,7 +752,6 @@ class Candidates2020 extends React.Component {
               intervene in current events, and gives members the skills and
               perspectives necessary to become lifelong socialist organizers.
             </p>
-
             <p>
               This past year, YDSA’s National Political Education Committee
               compiled readings and discussion questions, provided trainings on
@@ -769,21 +759,18 @@ class Candidates2020 extends React.Component {
               further develop and implement robust political education through
               the NPEC and its relationship with chapters and members.
             </p>
-
             <p>
               Read more about political education:{" "}
               <ExternalLink href="https://socialistcall.com/2019/07/26/dsa-political-education-night-school/">
                 Brains and Brawn in DSA
               </ExternalLink>{" "}
             </p>
-
             <p>
               Read our political education resolution:{" "}
               <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-political-education">
                 Developing a Robust National Political Education Program
               </a>
             </p>
-
             <h2>Recommit to the Rank-and-File Strategy</h2>
             <p>
               As Marxists, we believe that the working class is the agent of
@@ -797,12 +784,10 @@ class Candidates2020 extends React.Component {
               developing a layer of rank-and-file leaders who can organize in
               the workplace on a day-to-day basis.
             </p>
-
             <p>
               The best way for YDSA to engage in the rank-and-file strategy is
               to re-establish a National Labor Committee with two primary tasks:
             </p>
-
             <ol>
               <li>
                 Work with the NPEC to develop political education on the
@@ -814,7 +799,6 @@ class Candidates2020 extends React.Component {
                 interested.
               </li>
             </ol>
-
             <p>
               Read more on the rank-and-file strategy in YDSA: Students and
               Strikes:{" "}
@@ -822,14 +806,12 @@ class Candidates2020 extends React.Component {
                 Why YDSA Needs the Rank and File Strategy
               </ExternalLink>{" "}
             </p>
-
             <p>
               Read our Rank-and-File Strategy resolution:{" "}
               <a href="https://ydsa.breadandrosesdsa.org/resolutions/#rank-and-file-pipeline">
                 Establishing a Rank-and-File Pipeline
               </a>
             </p>
-
             <h2>For a Central Tasks and Perspectives</h2>
             <p>
               YDSA’s membership has skyrocketed, but not without some growing
@@ -845,7 +827,6 @@ class Candidates2020 extends React.Component {
               lifelong militants who understand our immediate struggles as part
               of a much broader strategy for building a socialist future.
             </p>
-
             <p>
               By adopting a national Tasks and Perspectives Document through an
               open and democratic process, we can move toward a collective
@@ -855,14 +836,12 @@ class Candidates2020 extends React.Component {
               reflect the will of the organization's highest democratic body and
               give chapters a framework for their own local campaigns.
             </p>
-
             <p>
               Read our tasks and perspectives resolution:{" "}
               <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-tasks-and-perspectives">
                 Adopting a National Tasks and Perspectives Document for YDSA
               </a>
             </p>
-
             <h2>Grow and Diversify</h2>
             <p>
               Students have played an important role in socialist movements in
@@ -873,7 +852,6 @@ class Candidates2020 extends React.Component {
               well as other minority-serving institutions, community colleges,
               and high schools.
             </p>
-
             <p>
               Our next National Coordinating Committee should prioritize growth
               and diversification. They can do this by providing resources and
@@ -885,12 +863,20 @@ class Candidates2020 extends React.Component {
               YDSA to carry out this work, and they should strongly consider
               hiring an organizer who is a person of color.
             </p>
-
             <p>
               Read our Growth and Diversification resolution here:{" "}
               <a href="https://ydsa.breadandrosesdsa.org/resolutions/#growth-and-diversification">
                 Growth and Diversification
               </a>
+            </p>
+            <br />
+            <p>
+              <strong>
+                <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
+                  Click here
+                </ExternalLink>{" "}
+                to sign on to support our candidates and resolutions.
+              </strong>
             </p>
           </Element>
         </div>
