@@ -674,7 +674,6 @@ class Candidates2020 extends React.Component {
             </p>
 
             {/* <MailChimpSignUp /> */}
-            <p>MAILCHIMP FORM HERE</p>
 
             <p>
               We are living through unprecedented times in American history. A
