@@ -58,7 +58,7 @@ const Platform = () => (
         <p>
           <em>
             {" "}
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSeg-gV00AiZJ6EGl8Y5xTmUEgA-5p4MSFiNjRhQ9qzK4b1V1A/viewform">
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
               Click here to sign on
             </ExternalLink>{" "}
             to support our resolution on Adopting a National Tasks and
@@ -201,7 +201,7 @@ const Platform = () => (
         <p>
           <em>
             {" "}
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSf7L7B_ZdKBgcrVQYPdzqIGFUIT9Y9TIXAvB6KNWiyzgrE5Kg/viewform">
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
               Click here to sign on
             </ExternalLink>{" "}
             to support our resolution on Developing a Robust National Political
@@ -332,7 +332,7 @@ const Platform = () => (
         <p>
           <em>
             {" "}
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSfC2BCdiCTqz3UuX-XYpA720RCMbMjDh25KRCT3wgDAPO-DZQ/viewform">
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
               Click here to sign on
             </ExternalLink>{" "}
             to support our resolution on Establishing a YDSA Rank-and-File
@@ -522,7 +522,7 @@ const Platform = () => (
         <p>
           <em>
             {" "}
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSeBkh5cY3Agstzu5QomGKva0IBbX1QI4xPziWOLfEH_RszwEw/viewform">
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
               Click here to sign on
             </ExternalLink>{" "}
             to support our resolution on Growth and Diversification!
