@@ -194,8 +194,8 @@ const Platform = () => (
         </h3>
         <p>
           <em>
-            Check out our forthcoming article for The Activist on what we hope
-            to accomplish by laying out YDSA’s tasks and perspectives!
+            Check out our forthcoming article for The Activist on political
+            education!
           </em>
         </p>
         <p>
