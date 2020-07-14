@@ -7,8 +7,8 @@ import InternalLink from "../components/internal-link"
 import ExternalLink from "../components/external-link"
 
 const Platform = () => (
-  <Layout title="2020 Resolutions" color="red" heroImageName="dslc">
-    <SEO title="YDSA 2020 Resolutions" ogImage="dslc" />
+  <Layout title="2020 Resolutions" color="yellow" heroImageName="tasks">
+    <SEO title="YDSA 2020 Resolutions" ogImage="tasks" />
     <div className="sidebar">
       <h2>Our Proposals</h2>
       <ul>
