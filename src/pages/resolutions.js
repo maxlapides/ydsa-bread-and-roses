@@ -66,114 +66,119 @@ const Platform = () => (
           </em>
         </p>
         <p>
-          Whereas, as the youth wing of Democratic Socialists America, the
-          largest socialist organization in the United States in nearly a
-          century, YDSA has a unique role to play in the US left, as a force
-          that can activate, educate, and train young people to become lifelong
-          socialist organizers. YDSA is unique among student organizations in
-          that we recognize our power comes not from our position as students,
-          but as current and future members of the working class, and that our
-          fight does not stop at the borders of our campuses or end when we
-          graduate. As socialists, our strategy should be focused on elevating
-          class consciousness and building the power and organization of the
-          working class to extract concessions from the ruling class and
-          eventually overturn capitalism itself. By engaging in rigorous
-          political education and campaigning for concrete, widely-felt demands
-          that shift the balance of power between capitalists and workers, YDSA
-          members can build our skills as organizers and political thinkers,
-          allowing us to reach and radicalize our fellow students, build
-          stronger chapters, and prepare ourselves for lifetimes of commitment
-          to militant socialist struggle.
+          <strong>Whereas,</strong> as the youth wing of Democratic Socialists
+          America, the largest socialist organization in the United States in
+          nearly a century, YDSA has a unique role to play in the US left, as a
+          force that can activate, educate, and train young people to become
+          lifelong socialist organizers. YDSA is unique among student
+          organizations in that we recognize our power comes not from our
+          position as students, but as current and future members of the working
+          class, and that our fight does not stop at the borders of our campuses
+          or end when we graduate. As socialists, our strategy should be focused
+          on elevating class consciousness and building the power and
+          organization of the working class to extract concessions from the
+          ruling class and eventually overturn capitalism itself. By engaging in
+          rigorous political education and campaigning for concrete, widely-felt
+          demands that shift the balance of power between capitalists and
+          workers, YDSA members can build our skills as organizers and political
+          thinkers, allowing us to reach and radicalize our fellow students,
+          build stronger chapters, and prepare ourselves for lifetimes of
+          commitment to militant socialist struggle.
         </p>
 
         <p>
-          Whereas, the widely disparate conditions on campuses across the
-          country, the built-in rapid turnover imposed by graduation, and the
-          general lack of clear organizational priorities have led to uneven
-          development among chapters and a lack of coordination between chapters
-          and national leadership.
+          <strong>Whereas,</strong> the widely disparate conditions on campuses
+          across the country, the built-in rapid turnover imposed by graduation,
+          and the general lack of clear organizational priorities have led to
+          uneven development among chapters and a lack of coordination between
+          chapters and national leadership.
         </p>
 
         <p>
-          Whereas, YDSA should take steps toward cohering an identity as a
-          national organization, determining shared priorities and perspectives,
-          and developing layers of trained organizers and leaders who can work
-          together to build the base for a youth wing of a future mass party.
+          <strong>Whereas,</strong> YDSA should take steps toward cohering an
+          identity as a national organization, determining shared priorities and
+          perspectives, and developing layers of trained organizers and leaders
+          who can work together to build the base for a youth wing of a future
+          mass party.
         </p>
 
         <p>
-          Whereas, YDSA should publicly declare the positions taken by the
-          organization after the resurgence of the socialist movement and
-          several conventions, including our commitments to building a fighting,
-          democratic labor movement and the centrality of the labor movement to
-          all socialist struggles; our support for reforms such as Medicare for
-          All, College for All, a Green New Deal, and other demands that empower
-          working people, nationalize key sectors of the economy, and counter
-          austerity; and our understanding of the relationship between the fight
-          for socialism and the struggles against racism, sexism, xenophobia,
-          homophobia, transphobia, and other forms of oppression.
+          <strong>Whereas,</strong> YDSA should publicly declare the positions
+          taken by the organization after the resurgence of the socialist
+          movement and several conventions, including our commitments to
+          building a fighting, democratic labor movement and the centrality of
+          the labor movement to all socialist struggles; our support for reforms
+          such as Medicare for All, College for All, a Green New Deal, and other
+          demands that empower working people, nationalize key sectors of the
+          economy, and counter austerity; and our understanding of the
+          relationship between the fight for socialism and the struggles against
+          racism, sexism, xenophobia, homophobia, transphobia, and other forms
+          of oppression.
         </p>
 
         <p>
-          Therefore be it resolved that YDSA will create a national Tasks and
-          Perspectives document (hereafter known as “the document”) clarifying
-          YDSA’s principles, priorities, and theory of change. This
-          public-facing document will serve as a statement of purpose for the
-          organization, and help to clarify organizational priorities, inform
-          the creation of political education and propaganda materials, and
-          provide direction for campaigns at the chapter level.
+          <strong>Therefore be it resolved,</strong> that YDSA will create a
+          national Tasks and Perspectives document (hereafter known as “the
+          document”) clarifying YDSA’s principles, priorities, and theory of
+          change. This public-facing document will serve as a statement of
+          purpose for the organization, and help to clarify organizational
+          priorities, inform the creation of political education and propaganda
+          materials, and provide direction for campaigns at the chapter level.
         </p>
 
         <p>
-          Be it further resolved that the YDSA NCC will form a Tasks and
-          Perspectives Committee (hereafter known as “the Committee”) to create
-          a document within one month of the 2020 convention. The document will
-          be informed by the resolutions passed at the 2020 convention.
+          <strong>Be it further resolved,</strong> that the YDSA NCC will form a
+          Tasks and Perspectives Committee (hereafter known as “the Committee”)
+          to create a document within one month of the 2020 convention. The
+          document will be informed by the resolutions passed at the 2020
+          convention.
         </p>
 
         <p>
-          Be it further resolved that the preambulatory clauses of this
-          resolution will be the foundations of the “Perspectives,” although
-          they are subject to change by the Committee insofar as they agree with
-          the spirit of resolutions adopted at convention.
+          <strong>Be it further resolved,</strong> that the preambulatory
+          clauses of this resolution will be the foundations of the
+          “Perspectives,” although they are subject to change by the Committee
+          insofar as they agree with the spirit of resolutions adopted at
+          convention.
         </p>
 
         <p>
-          Be it further resolved that the document will be made available to
-          chapter leaders for a comment and suggestion period of no more than
-          one month, during which chapters will be encouraged to discuss the
-          document and give feedback on its contents, which will be used to
-          inform the Committee’s drafting process. Once the Committee
+          <strong>Be it further resolved,</strong> that the document will be
+          made available to chapter leaders for a comment and suggestion period
+          of no more than one month, during which chapters will be encouraged to
+          discuss the document and give feedback on its contents, which will be
+          used to inform the Committee’s drafting process. Once the Committee
           incorporates any necessary changes, the Committee will make the
           document and any feedback available to the YDSA NCC, which will then
           vote to adopt or amend the Tasks and Perspectives Document.
         </p>
 
         <p>
-          Be it further resolved that the adopted document will be made
-          immediately available to all YDSA members via email, and will be
-          posted publicly on the YDSA website.
+          <strong>Be it further resolved,</strong> that the adopted document
+          will be made immediately available to all YDSA members via email, and
+          will be posted publicly on the YDSA website.
         </p>
 
         <p>
-          Be it further resolved that this document should be the basis for a
-          national YDSA call open to all members to discuss the role of YDSA in
-          the socialist movement and the role of students in the struggle for
-          socialism.
+          <strong>Be it further resolved,</strong> that this document should be
+          the basis for a national YDSA call open to all members to discuss the
+          role of YDSA in the socialist movement and the role of students in the
+          struggle for socialism.
         </p>
 
         <p>
-          Be if further resolved that upon adoption of the Tasks and
-          Perspectives document, YDSA chapters should be encouraged and/or
-          expected to hold a chapter-wide strategy discussion about how best to
-          relate to the national Tasks and Perspectives. The committee will
-          provide, in addition to the completed document, a one-pager with
+          <strong>Be it further resolved,</strong> that upon adoption of the
+          Tasks and Perspectives document, YDSA chapters should be encouraged
+          and/or expected to hold a chapter-wide strategy discussion about how
+          best to relate to the national Tasks and Perspectives. The committee
+          will provide, in addition to the completed document, a one-pager with
           guidance on how to hold such discussions.
         </p>
 
         <p>
-          Be it finally resolved that YDSA calls on the DSA National Political
-          Committee to create a process to adopt a similar strategy document.
+          <strong>Be it finally resolved,</strong> that YDSA calls on the DSA
+          National Political Committee to create a process to adopt a similar
+          strategy document.
         </p>
       </Element>
       <Element
@@ -189,108 +194,121 @@ const Platform = () => (
         </h3>
         <p>
           <em>
-            Click here to sign on to support our resolution on Developing a
-            Robust National Political Education Program!
+            Check out our forthcoming article for The Activist on what we hope
+            to accomplish by laying out YDSA’s tasks and perspectives!
           </em>
         </p>
         <p>
-          Whereas, rigorous political education is crucial for developing our
-          members into lifelong socialist thinkers and organizers, and should be
-          implemented in all chapters.
+          <em>
+            {" "}
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSf7L7B_ZdKBgcrVQYPdzqIGFUIT9Y9TIXAvB6KNWiyzgrE5Kg/viewform">
+              Click here to sign on
+            </ExternalLink>{" "}
+            to support our resolution on Developing a Robust National Political
+            Education Program!
+          </em>
+        </p>
+        <p>
+          <strong>Whereas,</strong> rigorous political education is crucial for
+          developing our members into lifelong socialist thinkers and
+          organizers, and should be implemented in all chapters.
         </p>
 
         <p>
-          Whereas, robust chapter political education programs help onboard
-          newer members and give them the confidence necessary to become core
-          organizers of their chapter, and bolster the confidence of existing
-          core members by encouraging them to lead and participate in political
-          discussion.
+          <strong>Whereas,</strong> robust chapter political education programs
+          help onboard newer members and give them the confidence necessary to
+          become core organizers of their chapter, and bolster the confidence of
+          existing core members by encouraging them to lead and participate in
+          political discussion.
         </p>
 
         <p>
-          Whereas, incorporating political education into YDSA chapter meetings
-          helps spark debate and discussion among membership, and encourages
-          members to think of their local campaign work in a way that is closely
-          informed by YDSA’s overall socialist vision.
+          <strong>Whereas,</strong> incorporating political education into YDSA
+          chapter meetings helps spark debate and discussion among membership,
+          and encourages members to think of their local campaign work in a way
+          that is closely informed by YDSA’s overall socialist vision.
         </p>
 
         <p>
-          Whereas, YDSA members rarely, if ever, discuss and debate politics
-          with people outside their chapter, often creating uneven political
-          development between chapters and a lack of shared strategic vision and
-          goals.
+          <strong>Whereas,</strong> YDSA members rarely, if ever, discuss and
+          debate politics with people outside their chapter, often creating
+          uneven political development between chapters and a lack of shared
+          strategic vision and goals.
         </p>
 
         <p>
-          Whereas, YDSA members should be trained to confidently and
-          productively facilitate political discussions. Facilitation is a skill
-          that is essential for successful political education meetings, but is
-          also necessary in many other organizing contexts.
+          <strong>Whereas,</strong> YDSA members should be trained to
+          confidently and productively facilitate political discussions.
+          Facilitation is a skill that is essential for successful political
+          education meetings, but is also necessary in many other organizing
+          contexts.
         </p>
 
         <p>
-          Therefore be it resolved that the NPEC will be tasked with creating a
-          reading list for new members, covering a wide range of topics aimed at
-          providing a grounding in socialist politics. The process for creating
-          this syllabus will be directed by the NPEC, with any YDSA member able
-          to submit suggestions for readings or topics to cover via an open
-          submission process. This reading list will provide the basis for new
-          member political education at the chapter level, although the
-          membership of individual chapters can choose to alter the syllabus at
-          their discretion. This new member political education at the chapter
-          level can either take the form of one-on-one mentorships between older
-          members and newer members, or of small discussion groups outside of
-          the general meeting schedule. The NPEC will also prepare materials
-          designed to help older members teach the syllabus and discuss material
-          with newer members at the chapter level.
+          <strong>Therefore be it resolved,</strong> that the NPEC will be
+          tasked with creating a reading list for new members, covering a wide
+          range of topics aimed at providing a grounding in socialist politics.
+          The process for creating this syllabus will be directed by the NPEC,
+          with any YDSA member able to submit suggestions for readings or topics
+          to cover via an open submission process. This reading list will
+          provide the basis for new member political education at the chapter
+          level, although the membership of individual chapters can choose to
+          alter the syllabus at their discretion. This new member political
+          education at the chapter level can either take the form of one-on-one
+          mentorships between older members and newer members, or of small
+          discussion groups outside of the general meeting schedule. The NPEC
+          will also prepare materials designed to help older members teach the
+          syllabus and discuss material with newer members at the chapter level.
         </p>
 
         <p>
-          Be it further resolved that all chapters should be encouraged to
-          incorporate political education into their general meeting schedule.
-          This might involve alternating between organizing meetings and
-          political education meetings week-by-week, or including both a
-          political education and an organizing component within each general
-          meeting, or some combination of different approaches; the membership
-          of each chapter should feel free to experiment with whatever method
-          works best for them. The NPEC will include materials on how to
-          incorporate political education into a regular meeting schedule as
-          part of the Night School handbook, and will offer mentorship and
-          training for members who wish to become facilitators.
+          <strong>Be it further resolved,</strong> that all chapters should be
+          encouraged to incorporate political education into their general
+          meeting schedule. This might involve alternating between organizing
+          meetings and political education meetings week-by-week, or including
+          both a political education and an organizing component within each
+          general meeting, or some combination of different approaches; the
+          membership of each chapter should feel free to experiment with
+          whatever method works best for them. The NPEC will include materials
+          on how to incorporate political education into a regular meeting
+          schedule as part of the Night School handbook, and will offer
+          mentorship and training for members who wish to become facilitators.
         </p>
 
         <p>
-          Be it further resolved that this chapter-level political education
-          will be supplemented with regular national calls focused on the topics
-          presented in the readings, using a break-out group format to allow for
-          maximum participation among individual YDSA members across chapters.
+          <strong>Be it further resolved,</strong> that this chapter-level
+          political education will be supplemented with regular national calls
+          focused on the topics presented in the readings, using a break-out
+          group format to allow for maximum participation among individual YDSA
+          members across chapters.
         </p>
 
         <p>
-          Be it further resolved that the NPEC will regularly organize multiple
-          week-long virtual political education intensives on different subjects
-          of socialist theory and strategy for members across the country to
-          take part in. These intensives will have a central curriculum planned
-          by the NPEC and then carried out by trained facilitators in smaller
-          groups of YDSAers. The smaller groupings should have members from all
-          different chapters to facilitate cross-chapter political discussion
-          and debate.
+          <strong>Be it further resolved,</strong> that the NPEC will regularly
+          organize multiple week-long virtual political education intensives on
+          different subjects of socialist theory and strategy for members across
+          the country to take part in. These intensives will have a central
+          curriculum planned by the NPEC and then carried out by trained
+          facilitators in smaller groups of YDSAers. The smaller groupings
+          should have members from all different chapters to facilitate
+          cross-chapter political discussion and debate.
         </p>
 
         <p>
-          Be it further resolved that the NPEC will also provide training and
-          guidance for regional political education initiatives (e.g. in cities
-          or states with a high concentration of YDSA chapters), encouraging
-          members of more experienced chapters to train facilitators in newer
-          chapters.
+          <strong>Be it further resolved,</strong> that the NPEC will also
+          provide training and guidance for regional political education
+          initiatives (e.g. in cities or states with a high concentration of
+          YDSA chapters), encouraging members of more experienced chapters to
+          train facilitators in newer chapters.
         </p>
 
         <p>
-          Be it further resolved that the NPEC will also hold at least one call
-          per semester on how to host night schools. These calls will help
-          identify YDSA members who are willing and able to serve as
-          facilitators for national calls and focused intensives. Members
-          interested in facilitating will be mentored by members of the NPEC.
+          <strong>Be it finally resolved,</strong> that the NPEC will also hold
+          at least one call per semester on how to host night schools. These
+          calls will help identify YDSA members who are willing and able to
+          serve as facilitators for national calls and focused intensives.
+          Members interested in facilitating will be mentored by members of the
+          NPEC.
         </p>
       </Element>
       <Element name="rank-and-file-pipeline" id="rank-and-file-pipeline">
@@ -386,25 +404,26 @@ const Platform = () => (
         </p>
 
         <p>
-          <strong>Resolved,</strong> YDSA’s NCC will establish the YDSA National
-          Labor Committee (NLC) within two months of the 2020 YDSA National
-          Convention.
+          <strong>Be it further resolved,</strong> YDSA’s NCC will establish the
+          YDSA National Labor Committee (NLC) within two months of the 2020 YDSA
+          National Convention.
         </p>
 
         <p>
-          <strong>Resolved,</strong> the NLC will consist of, but not be limited
-          to, at least five committee members: one chair and four at-large
-          committee members; and from these 5 members, 2 shall be appointed as
-          Democratic Socialist Labor Commission (DSLC) Steering Committee
-          Representatives.
+          <strong>Be it further resolved,</strong> the NLC will consist of, but
+          not be limited to, at least five committee members: one chair and four
+          at-large committee members; and from these 5 members, 2 shall be
+          appointed as Democratic Socialist Labor Commission (DSLC) Steering
+          Committee Representatives.
         </p>
 
         <p>
-          <strong>Resolved,</strong> the YDSA NLC will work with the National
-          Political Education Committee (NPEC) and the DLSC to develop political
-          education materials about the history and current landscape of the
-          labor movement (and the role socialists continue to play in it), the
-          pitfalls of business unionism, and rank and file militancy, by
+          <strong>Be it further resolved,</strong> the YDSA NLC will work with
+          the National Political Education Committee (NPEC) and the DLSC to
+          develop political education materials about the history and current
+          landscape of the labor movement (and the role socialists continue to
+          play in it), the pitfalls of business unionism, and rank-and-file
+          militancy, by
         </p>
 
         <ol>
@@ -421,16 +440,16 @@ const Platform = () => (
         </ol>
 
         <p>
-          <strong>Resolved,</strong> the NLC, working, where relevant, with
-          DSA’s DSLC, will focus on building out a national YDSA rank-and-file
-          graduation pipeline that will facilitate the process of connecting
-          YDSAers with rank-and-file jobs in strategic industries, to be
-          determined by the NLC, or salting opportunities upon graduation.
+          <strong>Be it further resolved,</strong> the NLC, working, where
+          relevant, with DSA’s DSLC, will focus on building out a national YDSA
+          rank-and-file graduation pipeline that will facilitate the process of
+          connecting YDSAers with rank-and-file jobs in strategic industries, to
+          be determined by the NLC, or salting opportunities upon graduation.
         </p>
 
         <p>
-          <strong>Resolved,</strong> the YDSA rank-and-file graduation pipeline
-          will consist of, but not be limited to,
+          <strong>Be it further resolved,</strong> the YDSA rank-and-file
+          graduation pipeline will consist of, but not be limited to,
         </p>
 
         <ol>
@@ -471,10 +490,10 @@ const Platform = () => (
         </ol>
 
         <p>
-          <strong>Resolved,</strong> for YDSAers unsure of committing to a
-          career directly upon graduation, but still interested in building
-          rank-and-file power and the labor movement, the National Labor
-          Committee should work to connect YDSAers with unions with strong
+          <strong>Be it further resolved,</strong> for YDSAers unsure of
+          committing to a career directly upon graduation, but still interested
+          in building rank-and-file power and the labor movement, the National
+          Labor Committee should work to connect YDSAers with unions with strong
           salting or new organizing programs to help organize the unorganized.
         </p>
 
@@ -556,7 +575,7 @@ const Platform = () => (
         </p>
 
         <p>
-          <strong>Therefore be it resolved,</strong> YYDSA’s National
+          <strong>Therefore be it resolved,</strong> YDSA’s National
           Coordinating Committee will be tasked with growing and diversifying
           our organization by, including but not limited to:
         </p>
@@ -591,7 +610,7 @@ const Platform = () => (
           YDSA into its 100K membership strategy.
         </p>
         <p>
-          <strong>Be it further resolved,</strong> YDSA calls upon DSA’s
+          <strong>Be it finally resolved,</strong> YDSA calls upon DSA’s
           National Political Committee to prioritize hiring a second full-time
           staffer for YDSA, as promised in the October 2019 NPC meeting. We
           encourage the NPC to strongly consider hiring a POC/Black organizer

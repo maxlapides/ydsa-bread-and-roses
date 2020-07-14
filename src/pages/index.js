@@ -18,7 +18,7 @@ const candidates = [
       <>
         <p>
           Hi there! I’m running for co-chair of YDSA and attend City College in
-          New York City. I am the daughter of working class Bangladeshi
+          New York City. I am the daughter of working-class Bangladeshi
           immigrants and was born and raised in Queens, New York. I was first
           radicalized by seeing the disparity in quality of life when my family
           visited Bangladesh. In the Bangladeshi capital Dhaka, the second your
@@ -40,7 +40,7 @@ const candidates = [
 
         <p>
           I decided to attend City College because it was a public college that
-          was affordable for working class students like me. When I saw the
+          was affordable for working-class students like me. When I saw the
           flyers for YDSA it felt like my whole life had led up to that moment.
           A national, mass organization with tens of thousands of members
           fighting for a better world?! Sign me up and brand me forever! I have
@@ -85,7 +85,7 @@ const candidates = [
 
         <p>
           As we develop lifelong socialist organizers, it is also crucial that
-          we build a rank and file strategy pipeline to funnel our organizers
+          we build a rank-and-file strategy pipeline to funnel our organizers
           into strategic unions and build economic, social, and political power
           for the working class from the bottom-up. Personally, that is why I am
           going to become a train conductor and join the Transit Workers Union
@@ -93,12 +93,12 @@ const candidates = [
         </p>
 
         <p>
-          We also need to build pipelines into working class communities for
+          We also need to build pipelines into working-class communities for
           membership and leadership in the short term. I want to help grow our
           organization and build chapters in community colleges, HBCUs, and high
           schools. We need to recruit and develop leaders in black and brown
           working class communities to continue building the mass, multi-racial
-          working class movement that is necessary for us to win a better world.
+          working-class movement that is necessary for us to win a better world.
         </p>
 
         <p>
@@ -119,7 +119,7 @@ const candidates = [
           Political Science and Women, Gender, Sexuality Studies, a future
           elementary school teacher, and the co-chair of WWU YDSA. My activism
           is rooted in a conviction that winning socialism requires a mass
-          working class movement.
+          working-class movement.
         </p>
         <p>
           My organizing experience began in 2017, when I began volunteering with
@@ -150,7 +150,7 @@ const candidates = [
           worker-led movements such as the Seattle teacher’s strike in 2015 to
           the Swedish Hospital nurse’s strike in February, has made even more
           clear to me that rank-and-file strategy is necessary. We need to
-          rebuild the once strong American and internationa labor movement, and
+          rebuild the once strong American and international labor movement, and
           I think YDSA has the tools to do it.
         </p>
 
@@ -159,7 +159,7 @@ const candidates = [
           advantage of this precarious moment in history and use it to build a
           powerful mass movement as young people, and as workers. Our generation
           has watched as capitalism has become an incredibly unfair and
-          oppressive force. By continuing to build the larger working class
+          oppressive force. By continuing to build the larger working-class
           movement that Bernie Sanders started, we can start to create a world
           that is beneficial to everyone.
         </p>
@@ -167,7 +167,7 @@ const candidates = [
     ),
   },
   {
-    name: "Emmaline Bennet",
+    name: "Emmaline Bennett",
     school: "Columbia-Barnard",
     position: "At-Large",
     bio: (
@@ -243,8 +243,8 @@ const candidates = [
           period in our lives, potentially receptive to socialist ideas and open
           to getting involved in organizing. As YDSA members, I think that the
           most important task in front of us is to create as many spaces for
-          socialist political education around the country as possible--and by
-          "political education," I mean in the broadest sense of not only
+          socialist political education around the country as possible&mdash;and
+          by "political education," I mean in the broadest sense of not only
           discussing theory, politics, and history with comrades (although this
           is critically important), but also engaging in the kinds of campaigns
           that will give members the confidence and skills necessary to become
@@ -283,7 +283,7 @@ const candidates = [
           Austin YDSA's Steering Committee and Austin DSA's Leadership
           Committee. As a democratic socialist, I firmly believe that winning a
           better world means organizing a multiracial, multi-gendered, and
-          multigenerational working class movement to take on the oppressive
+          multigenerational working-class movement to take on the oppressive
           systems built by and for the capitalist class.
         </p>
         <p>
@@ -306,11 +306,11 @@ const candidates = [
           refunds, housing, and protections for university workers. These fights
           are very much connected to decommodifying and democratizing our
           universities. Furthermore, violence waged against black and brown
-          people–including protests calling for the end of policing––by the
-          hands of police have spurred calls by students for defunding police on
-          campuses across the nation and refund services for students as a step
-          towards making our universities accessible for students of all
-          backgrounds and abilities.
+          people&mdash;including protests calling for the end of
+          policing&mdash;by the hands of police have spurred calls by students
+          for defunding police on campuses across the nation and refund services
+          for students as a step towards making our universities accessible for
+          students of all backgrounds and abilities.
         </p>
         <p>
           I am running for NCC with the recognition that while these fights
@@ -428,13 +428,13 @@ const candidates = [
           I joined DSA after the inauguration in 2017. My first instinct was to
           try to start a chapter where I lived, and a few weeks later I was
           sitting in a room full of strangers discussing the politics of
-          Fredericksburg during the time of Trump. This first experience --
-          which honestly didn’t require much effort -- was incredibly exciting!
-          Two Sanders campaigns and a series of social movements have proven
-          that there is a base for socialist politics in the United States. But
-          as recent strike actions and DSA’s electoral victories have also
-          demonstrated, only organizing can combine people’s ideas and interests
-          into power.
+          Fredericksburg during the time of Trump. This first
+          experience&mdash;which honestly didn’t require much effort&mdash;was
+          incredibly exciting! Two Sanders campaigns and a series of social
+          movements have proven that there is a base for socialist politics in
+          the United States. But as recent strike actions and DSA’s electoral
+          victories have also demonstrated, only organizing can combine people’s
+          ideas and interests into power.
         </p>
 
         <p>
@@ -477,8 +477,8 @@ const candidates = [
           I’m running for YDSA’s National Coordinating Committee because I want
           to help build a YDSA with a chapter on every campus in the country.
           And I think socialists should hold each other, especially our elected
-          leaders, to a high standard -- the standard of comrade -- which I hope
-          to meet.
+          leaders, to a high standard&mdash;the standard of comrade&mdash;which
+          I hope to meet.
         </p>
       </>
     ),
@@ -650,7 +650,7 @@ class Candidates2020 extends React.Component {
 
         <div className="content-column">
           <Element name="priorities" id="priorities">
-            <h2>Summer Convention is July 31 - August 1</h2>
+            <h2>Summer Convention is July 31 - August 2</h2>
             <p>
               Check out the{" "}
               <ExternalLink href="https://y.dsausa.org/2020convention/">
@@ -702,8 +702,8 @@ class Candidates2020 extends React.Component {
               socialism. Through campaigns like College for All, YDSA for
               Bernie, and our coronavirus response, we’ve grown to 115 chapters
               engaged in local and national fights. In the last year, we’ve also
-              created a thriving publication, The Activist, and a syllabus for
-              night schools.
+              created a thriving publication, <em>The Activist</em>, and a
+              syllabus for night schools.
             </p>
 
             <p>
@@ -792,9 +792,9 @@ class Candidates2020 extends React.Component {
               <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing/">
                 rank-and-file strategy
               </ExternalLink>{" "}
-              strategy which states that socialists should focus on identifying
-              and developing a layer of rank-and-file leaders who can organize
-              in the workplace on a day-to-day basis.
+              which states that socialists should focus on identifying and
+              developing a layer of rank-and-file leaders who can organize in
+              the workplace on a day-to-day basis.
             </p>
 
             <p>
