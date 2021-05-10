@@ -649,6 +649,15 @@ class Candidates2020 extends React.Component {
         </div> */}
 
         <div className="content-column">
+          <h3>
+            The 2021 YDSA Convention will be held online from{" "}
+            <strong>Friday, June 25 to Sunday, June 27</strong>. For more
+            information, please check the{" "}
+            <ExternalLink href="https://y.dsausa.org/2021convention/">
+              official YDSA convention website
+            </ExternalLink>
+            .
+          </h3>
           <p>
             A democratic socialist nearly won the Democratic presidential
             primary last year, earning the enthusiasm of students and workers
