@@ -30,16 +30,16 @@ class MenuLinks extends React.Component {
     return (
       <ul>
         <li>
-          <Link to="/">2020 NCC Candidates &amp; Priorities</Link>
+          <Link to="/">2021 NCC Candidates &amp; Priorities</Link>
         </li>
         <li>
-          <Link to="/resolutions/">2020 Resolutions</Link>
+          <Link to="/resolutions/">2021 Resolutions</Link>
         </li>
-        <li>
+        {/* <li>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
             Support Our Slate
           </ExternalLink>
-        </li>
+        </li> */}
         <li>
           <ExternalLink href="https://breadandrosesdsa.org/">
             Bread &amp; Roses DSA

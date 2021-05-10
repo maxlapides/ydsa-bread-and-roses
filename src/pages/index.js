@@ -604,17 +604,17 @@ class Candidates2020 extends React.Component {
   render() {
     return (
       <Layout
-        title="2020 YDSA Summer Convention"
+        title="2021 YDSA Summer Convention"
         color="red"
         heroImageName="index"
         layoutClassName="home"
       >
         <SEO
-          title="2020 YDSA Summer Convention Slate &amp; Resolutions"
+          title="2021 YDSA Summer Convention Slate &amp; Resolutions"
           ogImage="home"
         />
 
-        <div className="content-column content-column-candidates">
+        {/* <div className="content-column content-column-candidates">
           <Element name="candidates" id="candidates">
             <h2>Meet the Candidates</h2>
           </Element>
@@ -646,239 +646,95 @@ class Candidates2020 extends React.Component {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="content-column">
-          <Element name="priorities" id="priorities">
-            <h2>Summer Convention is July 31 - August 2</h2>
-            <p>
-              Check out the{" "}
-              <ExternalLink href="https://y.dsausa.org/2020convention/">
-                YDSA Summer Convention
-              </ExternalLink>{" "}
-              page for more information.
-            </p>
-            <h2>
-              Hear from us at the YDSA Bread &amp; Roses Candidate and
-              Resolutions forum!
-            </h2>
-            <p>
-              <strong>
-                YDSA Bread &amp; Roses Candidate and Resolutions forum
-              </strong>
-              : July 26th at 4pm ET/1pm PT
-              <br />
-              <Button style={{ marginTop: 10 }}>
-                <ExternalLink href="https://zoom.us/meeting/register/tJMsceitpzguHdWcK5kHRN0_SyQLZ5qFxrgM">
-                  RSVP Here
-                </ExternalLink>
-              </Button>
-            </p>
-            <p>
-              We are living through unprecedented times in American history. A
-              democratic socialist nearly won the Democratic presidential
-              primary earlier this year, earning the enthusiasm of students
-              everywhere. Then, the COVID-19 pandemic crashed into our
-              privatized healthcare system and millions were laid off in its
-              wake. Now, massive and militant protests against police violence
-              have broken out in every state in the country.
-            </p>
-            <p>
-              <strong>
-                YDSA should be the organization that students and young people
-                look to and join to make sense of our moment and learn how to
-                organize for democracy and equality.
-              </strong>{" "}
-              And YDSA should be a launchpad for young socialists, preparing
-              them to organize in DSA long after they finish school.
-            </p>
-            <p>
-              Since Bernie Sanders’s 2016 campaign, YDSA has grown rapidly,
-              bringing students all around the country together in the fight for
-              socialism. Through campaigns like College for All, YDSA for
-              Bernie, and our coronavirus response, we’ve grown to 115 chapters
-              engaged in local and national fights. In the last year, we’ve also
-              created a thriving publication, <em>The Activist</em>, and a
-              syllabus for night schools.
-            </p>
-            <p>
-              But every year, some members of YDSA graduate. This high turnover
-              demands more organizing support from national leadership and a
-              shared strategy about how students can contribute to the class
-              struggle.{" "}
-              <strong>
-                As Marxists, we believe that although students have an important
-                role to play, only the working class can build socialism.
-              </strong>{" "}
-              Students as a group are transient and heterogenous, but the
-              working class is an absolute majority and can fatally disrupt
-              profit-making. While the majority of YDSA members are individually
-              working-class, we are not representative of the working class’s
-              diversity and we remain largely separate from the labor movement.
-            </p>
-            <p>
-              YDSA must work to elevate class consciousness on and around
-              campuses, and bring students into struggles that will provide them
-              with the knowledge and skills necessary to organize after
-              completing their degree. Currently, YDSA lacks the centralization,
-              coordination, and organizational structure to recruit effectively,
-              carry out widespread political education, and develop leaders.{" "}
-              <strong>
-                The Summer 2020 Convention is an opportunity to think seriously
-                about how we can achieve these goals:
-              </strong>{" "}
-              We can decide on a path for YDSA that meets our political moment
-              and, long-term, sets us on track to grow and cohere into the youth
-              wing of a mass socialist workers’ party.
-            </p>
-            <p>
-              <strong>
-                Above all, YDSA’s mission must be to make, train, and keep young
-                socialists.
-              </strong>{" "}
-              To that end, Bread and Roses members in YDSA are putting forward
-              our vision for YDSA through the following resolutions and a slate
-              of socialist organizers who are dedicated to building YDSA into
-              the disciplined and effective organization we know it can be.
-            </p>
-            <h2>Develop and Implement Comprehensive Political Education</h2>
-            <p>
-              In order to respond effectively to this current crisis and chart a
-              positive path forward, we must understand how capitalism works.
-              Our members should be familiar with the history of socialists
-              before us — what they tried, why they disagreed with each other,
-              when they failed and when they made progress. Political education
-              among comrades empowers our members to participate in YDSA and
-              intervene in current events, and gives members the skills and
-              perspectives necessary to become lifelong socialist organizers.
-            </p>
-            <p>
-              This past year, YDSA’s National Political Education Committee
-              compiled readings and discussion questions, provided trainings on
-              running night schools, and published The Activist. We hope to
-              further develop and implement robust political education through
-              the NPEC and its relationship with chapters and members.
-            </p>
-            <p>
-              Read more about political education:{" "}
-              <ExternalLink href="https://socialistcall.com/2019/07/26/dsa-political-education-night-school/">
-                Brains and Brawn in DSA
-              </ExternalLink>{" "}
-            </p>
-            <p>
-              Read our political education resolution:{" "}
-              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-political-education">
-                Developing a Robust National Political Education Program
-              </a>
-            </p>
-            <h2>Recommit to the Rank-and-File Strategy</h2>
-            <p>
-              As Marxists, we believe that the working class is the agent of
-              change that can achieve socialism and that socialists need to
-              prioritize rebuilding the independent fighting capacity of the
-              working class. We subscribe to the{" "}
-              <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing/">
-                rank-and-file strategy
-              </ExternalLink>{" "}
-              which states that socialists should focus on identifying and
-              developing a layer of rank-and-file leaders who can organize in
-              the workplace on a day-to-day basis.
-            </p>
-            <p>
-              The best way for YDSA to engage in the rank-and-file strategy is
-              to re-establish a National Labor Committee with two primary tasks:
-            </p>
-            <ol>
-              <li>
-                Work with the NPEC to develop political education on the
-                centrality of the labor movement to socialist struggle, and
-              </li>
-              <li>
-                Build a pipeline to encourage YDSAers to get rank-and-file jobs
-                in strategic sectors after graduating, and support those already
-                interested.
-              </li>
-            </ol>
-            <p>
-              Read more on the rank-and-file strategy in YDSA: Students and
-              Strikes:{" "}
-              <ExternalLink href="https://y.dsausa.org/the-activist/students-and-strikes-why-ydsa-needs-the-rank-and-file-strategy/">
-                Why YDSA Needs the Rank and File Strategy
-              </ExternalLink>{" "}
-            </p>
-            <p>
-              Read our Rank-and-File Strategy resolution:{" "}
-              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#rank-and-file-pipeline">
-                Establishing a Rank-and-File Pipeline
-              </a>
-            </p>
-            <h2>For a Central Tasks and Perspectives</h2>
-            <p>
-              YDSA’s membership has skyrocketed, but not without some growing
-              pains. The connections between chapters and the national
-              organization are loose, political development remains uneven from
-              chapter to chapter, and though we’ve adopted radical and
-              meaningful stances on many issues, our goals and our vision as an
-              organization are still unclear. If we want to overcome the liberal
-              influence of issue-based campus activism and the implicit
-              instability caused by turnover at colleges and universities, we
-              need to build a strong, formidable, and lasting organization with
-              clear priorities and structures. In doing so we can develop
-              lifelong militants who understand our immediate struggles as part
-              of a much broader strategy for building a socialist future.
-            </p>
-            <p>
-              By adopting a national Tasks and Perspectives Document through an
-              open and democratic process, we can move toward a collective
-              understanding of our purpose as an organization and better
-              coordinate around our shared goals. This document will draw on the
-              resolutions passed at the 2020 convention, and will therefore
-              reflect the will of the organization's highest democratic body and
-              give chapters a framework for their own local campaigns.
-            </p>
-            <p>
-              Read our tasks and perspectives resolution:{" "}
-              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#national-tasks-and-perspectives">
-                Adopting a National Tasks and Perspectives Document for YDSA
-              </a>
-            </p>
-            <h2>Grow and Diversify</h2>
-            <p>
-              Students have played an important role in socialist movements in
-              the past, but they can’t transform our society alone. Only a mass
-              movement of class-conscious workers can build socialism. To help
-              create this movement, YDSA needs to expand and diversify. We
-              should start with historically Black colleges and universities, as
-              well as other minority-serving institutions, community colleges,
-              and high schools.
-            </p>
-            <p>
-              Our next National Coordinating Committee should prioritize growth
-              and diversification. They can do this by providing resources and
-              trainings to YDSA and DSA chapters on how to help form chapters on
-              nearby campuses, strengthening the relationship between YDSA
-              chapters and their local DSA chapter, and surveying YDSA members
-              already attending these institutions. It is essential that DSA’s
-              National Political Committee hires another full-time staffer for
-              YDSA to carry out this work, and they should strongly consider
-              hiring an organizer who is a person of color.
-            </p>
-            <p>
-              Read our Growth and Diversification resolution here:{" "}
-              <a href="https://ydsa.breadandrosesdsa.org/resolutions/#growth-and-diversification">
-                Growth and Diversification
-              </a>
-            </p>
-            <br />
-            <p>
-              <strong>
-                <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
-                  Click here
-                </ExternalLink>{" "}
-                to sign on to support our candidates and resolutions.
-              </strong>
-            </p>
-          </Element>
+          <p>
+            A democratic socialist nearly won the Democratic presidential
+            primary last year, earning the enthusiasm of students and workers
+            everywhere. Then, the COVID-19 pandemic crashed into our privatized
+            healthcare system and millions were laid off in its wake. Shortly
+            after, massive and militant protests against police violence broke
+            out in every state in the country. Donald Trump was defeated in
+            November; however, the new Biden administration has done little more
+            to stave off the spread of COVID, as the pandemic has continued to
+            ravage working-class communities. Police continue to brutalize
+            working-class communities, especially Black and Latinx communities,
+            murdering adults and children alike. Even as more and more people in
+            the U.S. receive vaccines, the U.S. ruling class is condemning
+            billions of people in the Global South to languish from lack of
+            access to vaccines. &lsquo;Back to normal&rsquo; for the US is still
+            a neoliberal hellscape where millions of people lack basic rights
+            like healthcare, housing, and education, where we are on a collision
+            course for climate catastrophe, and where working-class people are
+            denied any control over their own conditions of life and work.
+          </p>
+          <p>
+            Since Bernie Sanders&rsquo;s 2016 campaign, DSA and YDSA have grown
+            rapidly, bringing people all around the country together in the
+            fight for socialism. We now have a ninety-two-thousand-member
+            socialist organization and only keep growing. In YDSA, we have built
+            a mass student-socialist organization through campaigns like College
+            for All, YDSA for Bernie, the Student and Workers&rsquo; Relief
+            campaign, and our campaign to Cancel All Student Debt. We&rsquo;ve
+            also created a thriving publication, <i>The Activist</i>, political
+            education curricula and programs, and a rank-and-file pipeline to
+            educate and support student socialists in our efforts to rebuild the
+            labor movement from the bottom up. YDSA now has over 130 chapters,
+            all engaging in struggle from the local to national level and
+            educating and training lifelong socialist organizers.
+          </p>
+          <p>
+            <strong>
+              YDSA should be the organization that students and young people
+              look to and join to make sense of our moment and learn how to
+              organize for a truly democratic society.
+            </strong>{" "}
+            And YDSA should be a launchpad for young socialists, preparing them
+            to organize in DSA long after they finish school.
+          </p>
+          <p>
+            But every year, some members of YDSA graduate. This high turnover
+            demands more organizing support from national leadership and a
+            shared strategy about how students can contribute to the class
+            struggle.{" "}
+            <strong>
+              As Marxists, we believe that although students have an important
+              role to play, only the working class can build socialism.
+            </strong>
+            Students as a group are transient and heterogenous, but the working
+            class is an absolute majority and can fatally disrupt profit-making.
+            While the majority of YDSA members are individually working-class,
+            we are not representative of the working class&rsquo;s diversity and
+            we remain largely separate from the labor movement.
+          </p>
+          <p>
+            YDSA must work to elevate class consciousness on and around
+            campuses, and bring students into struggles that will provide them
+            with the knowledge and skills necessary to organize after
+            graduation. Over the past year, YDSA has begun to build the
+            centralization, coordination, and organizational structure to
+            recruit effectively, carry out widespread political education, and
+            develop leaders, but we have far more to go, our main limitations
+            being capacity and resources.{" "}
+            <strong>
+              The Summer 2021 Convention is an opportunity to think seriously
+              about how we can expand on these goals:
+            </strong>{" "}
+            We can decide on a path for YDSA that meets our political moment
+            and, in the long-term, sets us on track to grow and cohere into the
+            youth wing of a mass socialist workers&rsquo; party.
+          </p>
+          <p>
+            <strong>
+              Above all, YDSA&rsquo;s mission must be to make, train, and keep
+              young socialists.
+            </strong>{" "}
+            To that end, Bread and Roses members in YDSA are putting forward our
+            vision for YDSA through the following resolutions and a slate of
+            socialist organizers who are dedicated to building YDSA and growing
+            and strengthening the socialist movement as a whole.
+          </p>
         </div>
 
         <Modal
