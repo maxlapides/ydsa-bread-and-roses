@@ -35,6 +35,11 @@ const Platform = () => (
             Building a YDSA Mentorship Program
           </InternalLink>
         </li>
+        <li>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSfSmdjjx1Dvn6Q-zhHyHW-yxBTlUuNk1x8zO01VFfvA0MbFxg/viewform?gxids=7628">
+            <strong>Sign on in support of Bread and Roses' resolutions</strong>
+          </ExternalLink>
+        </li>
       </ul>
     </div>
 
@@ -217,6 +222,20 @@ const Platform = () => (
             </ExternalLink>
           </strong>
         </p>
+        <h3>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSfSmdjjx1Dvn6Q-zhHyHW-yxBTlUuNk1x8zO01VFfvA0MbFxg/viewform?gxids=7628">
+            <div
+              style={{
+                padding: 20,
+                marginTop: 50,
+                border: "solid 3px black",
+                textAlign: "center",
+              }}
+            >
+              Sign on in support of Bread and Roses' resolutions here!
+            </div>
+          </ExternalLink>
+        </h3>
       </Element>
     </div>
   </Layout>

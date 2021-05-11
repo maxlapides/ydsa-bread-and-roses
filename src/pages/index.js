@@ -670,7 +670,7 @@ class Candidates2020 extends React.Component {
             ravage working-class communities. Police continue to brutalize
             working-class communities, especially Black and Latinx communities,
             murdering adults and children alike. Even as more and more people in
-            the U.S. receive vaccines, the U.S. ruling class is condemning
+            the U.S. receive vaccines, the U.S. ruling class has condemned
             billions of people in the Global South to languish from lack of
             access to vaccines. &lsquo;Back to normal&rsquo; for the US is still
             a neoliberal hellscape where millions of people lack basic rights
@@ -710,7 +710,7 @@ class Candidates2020 extends React.Component {
             <strong>
               As Marxists, we believe that although students have an important
               role to play, only the working class can build socialism.
-            </strong>
+            </strong>{" "}
             Students as a group are transient and heterogenous, but the working
             class is an absolute majority and can fatally disrupt profit-making.
             While the majority of YDSA members are individually working-class,
@@ -744,6 +744,12 @@ class Candidates2020 extends React.Component {
             socialist organizers who are dedicated to building YDSA and growing
             and strengthening the socialist movement as a whole.
           </p>
+          <h3 style={{ textAlign: "center" }}>
+            Do you support Bread and Roses' vision for YDSA?{" "}
+            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSfSmdjjx1Dvn6Q-zhHyHW-yxBTlUuNk1x8zO01VFfvA0MbFxg/viewform?gxids=7628">
+              Sign here!
+            </ExternalLink>
+          </h3>
         </div>
 
         <Modal
