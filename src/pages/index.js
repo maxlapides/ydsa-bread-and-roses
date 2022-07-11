@@ -11,400 +11,133 @@ import ExternalLink from "../components/external-link"
 
 const candidates = [
   {
-    name: "Cyn Huang",
-    school: "UC Berkeley",
-    position: "Co-Chair",
-    bio: (
-      <>
-        <p>
-          Hi comrades! I’m an incoming third-year at UC Berkeley where I serve 
-		  as the co-chair of Cal YDSA. I’m also a member of YDSA’s National Labor 
-		  Committee and a head steward in United Auto Workers Local 2865. I plan on 
-		  becoming a rank-and-file teacher. 
-        </p>
-        <p>
-          Early on in high school, I radicalized around issues of economic inequality 
-		  and workplace democracy. However, I didn’t act on my political beliefs until 
-		  Bernie’s second presidential campaign inspired me to get organized. Since 
-		  joining DSA, I’ve helped grow Cal YDSA and Bay Area YDSA through 1:1 relational 
-		  organizing; robust political education; exciting, outward-facing campaigns like 
-		  YDSA for Bernie and Y/DSA for Proposition 15; and workplace organizing with academic 
-		  student employees at the University of California. 
-        </p>
-
-        <p>
-          At the national level, I have served on the COVID-19 response team 
-		  that was formed for the purpose of helping leaders across the country 
-		  maintain their chapters and meet the challenges of pandemic organizing. On 
-		  the National Labor Committee, I have mapped out national YDSA membership; 
-		  organized national interest calls about the rank-and-file strategy, as well 
-		  as a “Jobs Fair” for students enthusiastic about organizing in strategic 
-		  sectors of the economy; and run multiple semesters of a widely attended Rank-and-File School. 
-        </p>
-        <p>
-          As a Marxist, I believe that the only way we can win socialism -- a 
-		  world in which people can live freely and creatively -- is by building 
-		  mass organizations of the working class and leveraging the strategic 
-		  power that workers have at the point of production. In both these matters, 
-		  YDSA has a critical role to play: YDSA should systematically recruit 
-		  and develop thousands of young, open-minded students into lifelong 
-		  socialist organizers, and equip them with the political perspectives, 
-		  organizational skills, and practical experience needed to advance 
-		  struggle wherever they go in life, but especially in their (future) workplaces. 
-        </p>
-
-        <p>
-          I’m running for co-chair because I want to further empower 
-		  YDSA to make these kinds of interventions. As a member of the 
-		  NCC, my priorities would be to expand the rank-and-file pipeline 
-		  (as outlined in the resolution I co-authored with other comrades on the NLC), 
-		  build a 1:1 mentorship program, and recruit and develop organizers 
-		  through a national campaign like College for All. Through these efforts, 
-		  we can turn YDSA into a mass organization of working class students who 
-		  understand what it takes for the working class to exercise political power.
-        </p>
-
-        <p>
-          Thank you for considering me for NCC –– and thank you, YDSA, 
-		  for raising me. I look forward to the struggle ahead. 
-        </p>
-
-      </>
-    ),
-  },
-  {
-    name: "Dahlia Wilson",
-    school: "Albany High School",
-    position: "At-Large",
-    bio: (
-      <>
-        <p>
-          Hello! My name is Dahlia Wilson and I am a current NCC member. 
-		  I served as the co-chair of Albany High School YDSA for three 
-		  years, and next year I will be studying neuroscience at Reed 
-		  College in preparation to become a rank-and-file nurse midwife. 
-		  As a Marxist and and a feminist, I believe that capitalism is 
-		  a fundamental barrier to a just world, and that a society founded 
-		  on solidarity, progress, and human flourishing is only attainable 
-		  through united working class resistance.
-        </p>
-        <p>
-          In tenth grade, after becoming frustrated with liberal social 
-		  justice activism, I joined East Bay DSA, founded a YDSA chapter, 
-		  and committed myself to socialist organizing. Through supporting 
-		  the Oakland teachers’ strike, I saw the power of a united multiracial 
-		  working class taking militant action. I learned what it means to 
-		  be a comrade and to be bound to someone else by a shared 
-		  commitment to the lifelong struggle for socialism.
-        </p>
-
-        <p>
-          Over the last three three years, we campaigned for Bernie Sanders, 
-		  recruited a new steering committee of underclassmen to continue 
-		  the chapter and grew our membership by about a third each year 
-		  through a combination of chapter-wide discussions, targeted 1-on-1 
-		  organizing, and outward-facing events. We also played an important 
-		  role in organizing a regional group for YDSA organizers from across 
-		  the East Bay to share skills, resources, and political strategy. This 
-		  year we organized for progressive taxation and student debt cancellation, 
-		  and stood in solidarity with our teachers’ union when the school board 
-		  tried to push through an unsafe and anti-union reopening plan.
-        </p>
-        <p>
-          Now that I’m graduating high school, I’m sad to leave my chapter 
-		  behind, but so proud of the incredible things we have accomplished 
-		  and looking forward to a lifetime of organizing -- starting with 
-		  organizing a YDSA chapter at my college!
-        </p>
-
-        <p>
-          In this profoundly radicalizing time to be a teenager, YDSA has 
-		  the unique opportunity to organize students from a variety of 
-		  backgrounds across the country. I have loved seeing more and 
-		  more high school YDSAs get started this year and I want high-schoolers 
-		  across the country to have the opportunity I had to learn from 
-		  \mentors and grow as a socialist organizer. I’m running for a second 
-		  term on the NCC because I believe that YDSA can be a vehicle for 
-		  socialism in this country. To get there, we must be a mass organization 
-		  rooted in the working class with a strong labor strategy and a strategy 
-		  to expand our influence to every young person. We must commit ourselves 
-		  to rebuilding the militant core of the labor movement, by supporting 
-		  students in entering strategic industries to organize on the shop 
-		  floor as rank-and-file union members. We must run huge national 
-		  campaigns for transformative demands, winning reforms and raising 
-		  up this generation of socialists with a theory of change to bring 
-		  about a true shift of power from capitalists to workers.
-        </p>
-
-        <p>
-          We have a long struggle ahead of us but it is one that we can win by
-          recognizing that our power lies in the multiracial working class,
-          advancing a strategy to build that power through rank-and-file
-          organizing and, as I think Bernie said best, fighting for someone we
-          don’t know.
-        </p>
-      </>
-    ),
-  },
-  {
     name: "Jake Colosa",
+    pronouns: "He/They",
     school: "New York University",
-    position: "At-Large",
+    position: "--",
     bio: (
       <>
         <p>
-          I’m a 21 year-old student at New York University studying 
-		  History on my way to becoming a high school Social Studies 
-		  teacher. Since joining NYU YDSA I have served on its Organizing 
-		  Committee for two years, helping grow our chapter and develop new 
-		  leaders through campaigns like YDSA for Bernie and our tuition 
-		  strike. Most recently, I helped lead our strike solidarity 
-		  efforts for our graduate student union’s three week strike, 
-		  helping them win a historic contract and reaching thousands 
-		  of undergraduates through our solidarity pledge. The success 
-		  of these campaigns and their ability to train and recruit new 
-		  members inspired me to put forward the College for All 
-		  resolution at this year’s convention so every chapter is 
-		  equipped and ready to run similar campaigns on their campuses!
+          I joined YDSA as a freshman. I wasn’t a socialist then, but through
+          political education and organizing I realized that socialism was the
+          only way we could build a just and sustainable world. For the next 2
+          years I served on my chapter’s Organizing Committee, where I helped
+          organize our COVID relief campaign and strike solidarity efforts for
+          our graduate student union. Those campaigns engaged thousands of
+          students on our campus, recruited dozens of new YDSA members, and
+          developed the current generation of leaders in our chapter. I also
+          gained invaluable experience and political education from my comrades
+          as the YDSA representative on NYC-DSA’s Steering Committee and as a
+          member of Bread &amp; Roses.
         </p>
         <p>
-          In Fall 2020, I joined YDSA’s National Political Education 
-		  Committee, where I helped run national reading groups and 
-		  pre-convention discussions and recruited new members to the 
-		  committee, doubling its size. Finally, since April 2020 I have 
-		  served as the YDSA representative on NYC-DSA’s Steering Committee. 
-		  In this role I have held fundraisers to send our NYC YDSA members 
-		  to the Summer Convention, helped with the administrative tasks of 
-		  running NYC-DSA, and worked with student organizers to start the 
-		  first high school YDSA chapter at Townsend Harris High School in 
-		  Queens! My time in these positions reaffirmed my belief that political 
-		  education is essential to develop YDSAers into lifelong socialist 
-		  organizers. On the NCC I will continue and expand our political 
-		  education efforts and am a proud co-sponsor of the Strengthening 
-		  YDSA’s Political Education Program resolution.
-        </p>
-
-        <p>
-          The most impactful experience I have had in YDSA was going to 
-		  Chicago to support the CTU/SEIU strike in 2019. While it wasn’t 
-		  my first picket line (my mom brought me to her union’s picket 
-		  line when I was a baby!), it was the first time I truly witnessed 
-		  class struggle. I got to know teachers on pre-dawn picket lines 
-		  across the city, marched with tens of thousands of strikers through 
-		  downtown Chicago, and delivered food to striking workers and their 
-		  students. Along the way, I met countless educators who told me how 
-		  difficult teaching in an under-resourced education system was, but 
-		  also how proud they were to be fighting for their students.
-        </p>
-        <p>
-          That feeling of solidarity followed me home, and soon I decided to 
-		  change my career path and become a teacher. I am excited to organize 
-		  to make my future union a militant vehicle for class struggle, and 
-		  help my coworkers feel and wield their own power. But this task 
-		  would be insurmountable on my own, which is why I strongly support 
-		  the National Labor Committee’s efforts to build a rank-and-file 
-		  pipeline this year and support the NLC’s resolution at this convention.
-        </p>
-
-        <p>
-          I’m running for NCC because I know that there can be a YDSA chapter 
-		  on every campus and I believe that the vision for YDSA outlined in 
-		  the Bread & Roses slate of resolutions will help us get there. I am 
-		  so grateful to organize alongside all of you and am excited for what 
-		  comes next for YDSA!
-        </p>
-
-      </>
-    ),
-  },
-  {
-    name: "Clare Katko",
-    school: "Diablo Valley College",
-    position: "At-Large",
-    bio: (
-      <>
-        <p>
-          My name is Clare Katko and I’m the current co-chair of Diablo 
-		  Valley College YDSA. I am transferring to San Francisco State 
-		  University in the fall, where I will complete my degree and 
-		  then move on to get my teaching certificate post-grad. 
-        </p>
-        <p>
-          I joined YDSA at the end of 2019. I was always interested 
-		  in politics, but had a liberal idea of change. Before I 
-		  became a member of DVC YDSA, I thought I would go into either 
-		  politics or law. It was YDSA that gave me a real theory of 
-		  change: I now believe our best chance at achieving material 
-		  progress for the working class is through rebuilding the labor 
-		  movement by becoming rank-and-file workers.
-        </p>
-
-        <p>
-          Since joining my chapter, I have served two-terms as my chapter’s 
-		  Co-Chair. At the beginning of 2020, I helped the chapter transition 
-		  to doing online work and we then ran a successful Defund the Police 
-		  Campaign off-campus. After this campaign, my chapter grew throughout 
-		  this year. 
-        </p>
-        <p>
-          The rank and file strategy -- which ensures young socialists merge 
-		  with the labor movement -- is among the most important reasons YDSA 
-		  and the new NCC should strive to maintain a strong national organization, 
-		  focused on recruitment and membership retention.
-        </p>
-
-        <p>
-          I believe YDSA needs a single, strategic national campaign in 
-		  order to maintain\build the strength, momentum, and influence 
-		  necessary to actively recruit and maintain new membership and 
-		  chapters. We need to ensure all our members engage in regular 
-		  political education in order to become lifelong dedicated organizers 
-		  and militant rank-and-file workers. If elected, I hope to use my 
-		  time on the NCC to achieve this vision -- one where YDSA, our members, 
-		  and our campaign are aligned with the goal of revitalizing the labor movement. 
-        </p>
-		<p>
-		  It has been a tremendous honor organizing with and learning from YDSA this past year, 
-		  and I look forward to organizing with all of you for years to come.
-		</p>
-      </>
-    ),
-  },
-  {
-    name: "Alex Pellitteri",
-    school: "Hunter College",
-    position: "At-Large",
-    bio: (
-      <>
-        <p>
-          I am running for NCC because I want to grow YDSA into a 
-		  mass working class student organization that will develop 
-		  life-long socialist organizers. I am a 20 year old 
-		  Political Science major at Hunter College, part of the 
-		  CUNY system, one of the largest public universities in the 
-		  country. I've lived my entire life in Brooklyn, NY, and am 
-		  the son of a Honduran immigrant. My experience as a chapter 
-		  leader, DSA campaign manager, and NOC committee chair have 
-		  prepared me for the role of being an NCC member.
-        </p>
-        <p>
-          I’ve been fascinated by politics since I was ten years old. 
-		  When I was 15 years old, I began volunteering on political 
-		  campaigns and interned for my local Assemblywoman. At the 
-		  time, my conception of politics was that Democrats are good, 
-		  and Republicans are bad, and I dreamed of working for the 
-		  Democrats one day, until Bernie Sanders ran for president. 
-		  I was drawn to Bernie because of long history of fighting 
-		  for the working class. His campaign made me realize that 
-		  change comes not from politicians but from working class 
-		  people who decide to organize. This changed my understanding 
-		  of the world and I immediately threw myself into volunteering 
-		  for Bernie and organizing my local community. I found DSA and 
-		  YDSA through the Bernie campaign, and soon, I was elected to 
-		  represent NYC YDSA on the NYC DSA Steering Committee. When I got 
-		  to college, I helped revive the Hunter YDSA chapter, where I 
-		  still serve on the Organizing Committee and am helping run 
-		  our campaign to pass the New Deal 4 CUNY, a bill that would 
-		  make public college free in New York City.
-        </p>
-
-        <p>
-          This experience led me to become the campaign manager for Marcela Mitaynes, 
-		  a DSA candidate elected to the New York State Assembly last fall. I was 
-		  responsible for overseeing every aspect of our campaign, including field, 
-		  fundraising, communications, and endorsements, in the midst of the COVID 
-		  pandemic. I saw firsthand the importance of running class struggle socialist 
-		  candidates In order to grow our movement and build state power. I currently 
-		  chair the Field Committee of the National Organizing Committee (NOC), where 
-		  I've developed and overseen a team of field leads who have helped organize our 
-		  Cancel All Student Debt phone/text banks.
-        </p>
-        <p>
-          For the first time in decades, socialists are beginning to win power. 
-		  If we can use this momentum to grow DSA into a mass organization fighting 
-		  for the working class, we can lead the movement to win socialism. If we 
-		  can't, we will go down in history as yet another unsuccessful socialist 
-		  organization. I am running for NCC because I want to turn YDSA into a mass 
-		  working class student organization that will develop life-long socialist organizers. 
-		  My experience serving on the NOC and helping to lead a national campaign 
-		  has shown me how vital it is that each YDSA member feels connected to the 
-		  national organization and understands the importance of class struggle, and I 
-		  believe that to get there, we need to run one singular campaign that has mass 
-		  working class appeal, that each chapter can participate and grow its membership through.
-        </p>
-
-        <p>
-          Being in this movement has been one of the biggest honors of my life, and whether 
-		  I win or not, I look forward to organizing with all of you for years to come!
+          For the past year I have served as a member of YDSA’s NCC. On the NCC
+          I played an integral role in organizing the 2021 Fall Drive, the 2022
+          YDSA Conference, the YDSA Dues Drive, and Red Hot Summer. I also
+          spearheaded the creation of the YDSA Mentorship Coordinating Committee
+          and have worked to support and expand YDSA mentorship. These projects
+          have helped grow YDSA’s size and deepen the political and
+          organizational skills of our members and I hope to expand on this work
+          next year.
         </p>
       </>
     ),
   },
   {
-    name: "Rafi Ash",
-    school: "Amherst Regional High School",
-    position: "At-Large",
+    name: "Kayla Sharpe",
+    pronouns: "They/Them",
+    school: "Oakland University",
+    position: "--",
     bio: (
       <>
         <p>
-          Hi! My name is Rafi Ash and I currently serve as the 
-		  co-chair of the Amherst Regional High School YDSA, which I 
-		  founded in April 2020. I am 17 years old and will begin my 
-		  senior year in September. I joined DSA in 2018 and became more 
-		  active in the past year and a half.
+          I became a dues-paying member of DSA my freshman year of college in
+          2019 and have been a member of Oakland University YDSA for 3 years—
+          serving as vice-chair and chair for the past 2 years respectively.
+          During my time in chapter leadership, I have played a role in
+          organizing student canvasses to elect a DSA member to the Pontiac City
+          Council, building YDSA membership through our recent faculty strike,
+          fostering the growth of a new YDSA chapter in Metro Detroit, as well
+          as preparing for our upcoming Fight for $15 initiative for student
+          workers. My largest priorities in YDSA leadership have been developing
+          new leaders within our chapter as well as building an accessible
+          political education program.Through this organizing, new members have
+          developed great organizational and leadership skills, along with the
+          confidence to execute them in facilitating tabling, one-on-ones, and
+          meetings. Alongside organizing with YDSA, I have been an active member
+          of Metro Detroit DSA for 3 years and joined the Bread & Roses caucus
+          this year. In our DSA chapter I have helped build our YDSA
+          Coordination program and participated in facilitating meetings
+          regarding labor and the importance of YDSA to the socialist movement.
+        </p>
+      </>
+    ),
+  },
+  {
+    name: "Taylor Clark",
+    pronouns: "He/Him",
+    school: "University of California, Santa Barbara",
+    position: "--",
+    bio: (
+      <>
+        <p>
+          I was first drafted into the class war in 2019 when I began knocking
+          on doors for Bernie Sanders. Like so many others, Bernie fundamentally
+          transformed my political consciousness from that of an apathetic
+          liberal to a raging class warrior. But, while campaigns end, the
+          struggle continues. After March 2020, I pushed our Students for Bernie
+          chapter to join YDSA and was elected Co-Chair immediately after.
+          Despite the first 18 months of our chapter’s existence being in the
+          middle of a global pandemic, over the past two years, we’ve grown from
+          a small cell of Bernie veterans to a thriving YDSA chapter with over
+          60 members and a whole new generation of chapter leaders. To
+          accomplish that, we organized around issues from housing and
+          houselessness to pandemic relief and over-policing - and of course,
+          labor solidarity. If my past two years as a founding Co-Chair of UCSB
+          YDSA and one year as a field organizer in SRU-UAW have taught me
+          anything, it’s that the only way to enact the transformative change
+          that we as socialists are looking for is by organizing the working
+          class. Despite our still limited involvement in labor, working-class
+          power has yielded by far our most significant victories.
+        </p>
+      </>
+    ),
+  },
+  {
+    name: "Lance Jackson",
+    pronouns: "He/Him",
+    school: "University of California, Berkeley",
+    position: "--",
+    bio: (
+      <>
+        <p>
+          I became a member of YDSA in the summer of 2020 because it looked to
+          me like a revolution was being born and I didn't want to miss any of
+          it. My introduction to organizing came from phonebanking for Jackie
+          Fielder and Prop 15. I was welcomed into DSA by a lovely network of
+          mentors who helped me understand the role elections play in radical
+          movements and introduced me to the labor movement. During my sophomore
+          year I wrote canvassing scripts, taught lessons about racial
+          capitalism, and attended Rank-and-File School where I realized I can
+          make the biggest difference as rabble-rousing socialist teacher.
         </p>
         <p>
-         In the days and weeks after Bernie suspended his 2020 campaign 
-		 and in the midst of a global pandemic that further amplified 
-		 the disparities between the wealthy and the working class, 
-		 I began to feel hopeless. But I realized that hopelessness 
-		 is not a form of political organizing, and armchair pessimism 
-		 will never change or improve the world. So instead of giving up, 
-		 I decided to get to work.
-        </p>
-
-        <p>
-          Organizing during distance learning presented unique challenges, 
-		  but I have learned a lot. Over the past year, my chapter has 
-		  organized political education workshops, phonebanked for a ballot 
-		  measure, run local Cancel Student Debt and College for All events, 
-		  and worked in coalition with Sunrise and a local police abolition 
-		  group against school budget cuts. We are getting involved in the 
-		  teachers’ union’s campaign to raise paraeducators wages. Nationally, 
-		  I have worked as a field lead on the Cancel Student Debt and 
-		  College for All campaign for the past 5 months.
-        </p>
-        <p>
-          I am a YDSA member because I am a Marxist and because I am sick of 
-		  capitalism and how it has made itself seem permanent and immutable. 
-		  I believe that socialist change must come from the working class 
-		  and the labor movement. Because of that, YDSA must be made up of 
-		  the working class and as diverse as the working class. We must commit 
-		  ourselves to rank-and-file labor organizing on campus and after graduation. 
-		  We must expand and diversify our organization, focusing on community 
-		  college, high school, and HBCU chapters. We must fix where we have gone 
-		  wrong in building a movement where many marginalized groups remain underrepresented.
-        </p>
-
-        <p>
-          As an NCC member, I will work to expand our national campaigns and 
-		  political education. The NCC should provide aid to chapters running 
-		  local campaigns relevant to their campuses so they can expand their 
-		  membership and presence on campus. It is important that we train 
-		  socialist organizers who listen to and reflect the wants of the working 
-		  class on campus, so that we fight as and with the working class and not 
-		  solely on their behalf in place of them.
-        </p>
-
-        <p>
-          We have nothing to lose but our chains. We have a world to win!
+          By my junior year, nothing occupied more of my brain than helping
+          young people learn about socialism and I was elected co-chair of
+          political education. That summer and fall I was a lead organizer in my
+          campus' response to the UC tuition hikes. This was a short-lived
+          campaign, and we made a tough transition to strike support;
+          fortunately I organized reading groups on strategy in the youth,
+          climate, and socialist movements that kept us from losing steam. It
+          pays off to build spaces where brand-new people can contribute to the
+          intellectual development of the whole chapter.
         </p>
       </>
     ),
   },
 ]
 
-class Candidates2020 extends React.Component {
+class Candidates2022 extends React.Component {
   state = { visible: false, candidate: null, groupedCandidates: [] }
 
   componentDidMount() {
@@ -455,17 +188,17 @@ class Candidates2020 extends React.Component {
   render() {
     return (
       <Layout
-        title="2021 YDSA Summer Convention"
+        title="2022 YDSA Summer Convention"
         color="red"
         heroImageName="index"
         layoutClassName="home"
       >
         <SEO
-          title="2021 YDSA Summer Convention Slate &amp; Resolutions"
+          title="2022 YDSA Summer Convention Slate &amp; Resolutions"
           ogImage="home"
         />
 
-         <div className="content-column content-column-candidates">
+        <div className="content-column content-column-candidates">
           <Element name="candidates" id="candidates">
             <h2>Meet the Candidates</h2>
           </Element>
@@ -497,11 +230,11 @@ class Candidates2020 extends React.Component {
               </div>
             ))}
           </div>
-        </div> 
+        </div>
 
         <div className="content-column">
           <h3>
-            The 2021 YDSA Convention will be held online from{" "}
+            The 2022 YDSA Convention will be held online from{" "}
             <strong>Friday, June 25 to Sunday, June 27</strong>. For more
             information, please check the{" "}
             <ExternalLink href="https://y.dsausa.org/2021convention/">
@@ -510,90 +243,49 @@ class Candidates2020 extends React.Component {
             .
           </h3>
           <p>
-            A democratic socialist nearly won the Democratic presidential
-            primary last year, earning the enthusiasm of students and workers
-            everywhere. Then, the COVID-19 pandemic crashed into our privatized
-            healthcare system and millions were laid off in its wake. Shortly
-            after, massive and militant protests against police violence broke
-            out in every state in the country. Donald Trump was defeated in
-            November; however, the new Biden administration has done little more
-            to stave off the spread of COVID, as the pandemic has continued to
-            ravage working-class communities. Police continue to brutalize
-            working-class communities, especially Black and Latinx communities,
-            murdering adults and children alike. Even as more and more people in
-            the U.S. receive vaccines, the U.S. ruling class has condemned
-            billions of people in the Global South to languish from lack of
-            access to vaccines. &lsquo;Back to normal&rsquo; for the US is still
-            a neoliberal hellscape where millions of people lack basic rights
-            like healthcare, housing, and education, where we are on a collision
-            course for climate catastrophe, and where working-class people are
-            denied any control over their own conditions of life and work.
+            The Bread and Roses caucus is excited to introduce our slate for the
+            2022 National YDSA convention: Jake Colosa (New York University),
+            Kayla Sharpe (Oakland University), Taylor Clark (UC Santa Barbara),
+            and Lance Jackson (UC Berkeley)!
           </p>
           <p>
-            Since Bernie Sanders&rsquo;s 2016 campaign, DSA and YDSA have grown
-            rapidly, bringing people all around the country together in the
-            fight for socialism. We now have a ninety-two-thousand-member
-            socialist organization and only keep growing. In YDSA, we have built
-            a mass student-socialist organization through campaigns like College
-            for All, YDSA for Bernie, the Student and Workers&rsquo; Relief
-            campaign, and our campaign to Cancel All Student Debt. We&rsquo;ve
-            also created a thriving publication, <i>The Activist</i>, political
-            education curricula and programs, and a rank-and-file pipeline to
-            educate and support student socialists in our efforts to rebuild the
-            labor movement from the bottom up. YDSA now has over 130 chapters,
-            all engaging in struggle from the local to national level and
-            educating and training lifelong socialist organizers.
+            As democratic socialists, we have an obligation to uphold democracy
+            in our organization. Democracy is not just holding elections and
+            voting on resolutions, democracy is the rule of the people. To build
+            a mass movement that can intervene in the world, we must exercise
+            people power on a local and national level. Our members and elected
+            leadership should be able to direct our collective resources towards
+            our democratically selected priorities.
           </p>
           <p>
-            <strong>
-              YDSA should be the organization that students and young people
-              look to and join to make sense of our moment and learn how to
-              organize for a truly democratic society.
-            </strong>{" "}
-            And YDSA should be a launchpad for young socialists, preparing them
-            to organize in DSA long after they finish school.
+            Building a more democratic organization includes creating a stronger
+            relationship and greater coordination between our national leaders,
+            YDSA staff organizers, and YDSA interns. Democratically-deciding our
+            priorities and creating a structure for collaboration allows our
+            staff to provide the integral support that YDSA chapters need.
+            Further, stipends for our national leaders allow for greater
+            capacity to carry out the work mandated by our membership. YDSA has
+            the capacity to train the next generation of socialists to organize
+            the working class as rank-and-file workers and movement organizers
+            when our national leaders are not forced to split time between
+            school, work, and serving on the NCC, and when our YDSA staff
+            organizers direct time towards membership-decided priorities.
           </p>
           <p>
-            But every year, some members of YDSA graduate. This high turnover
-            demands more organizing support from national leadership and a
-            shared strategy about how students can contribute to the class
-            struggle.{" "}
-            <strong>
-              As Marxists, we believe that although students have an important
-              role to play, only the working class can build socialism.
-            </strong>{" "}
-            Students as a group are transient and heterogenous, but the working
-            class is an absolute majority and can fatally disrupt profit-making.
-            While the majority of YDSA members are individually working-class,
-            we are not representative of the working class&rsquo;s diversity and
-            we remain largely separate from the labor movement.
-          </p>
-          <p>
-            YDSA must work to elevate class consciousness on and around
-            campuses, and bring students into struggles that will provide them
-            with the knowledge and skills necessary to organize after
-            graduation. Over the past year, YDSA has begun to build the
-            centralization, coordination, and organizational structure to
-            recruit effectively, carry out widespread political education, and
-            develop leaders, but we have far more to go, our main limitations
-            being capacity and resources.{" "}
-            <strong>
-              The Summer 2021 Convention is an opportunity to think seriously
-              about how we can expand on these goals:
-            </strong>{" "}
-            We can decide on a path for YDSA that meets our political moment
-            and, in the long-term, sets us on track to grow and cohere into the
-            youth wing of a mass socialist workers&rsquo; party.
-          </p>
-          <p>
-            <strong>
-              Above all, YDSA&rsquo;s mission must be to make, train, and keep
-              young socialists.
-            </strong>{" "}
-            To that end, Bread and Roses members in YDSA are putting forward our
-            vision for YDSA through the following resolutions and a slate of
-            socialist organizers who are dedicated to building YDSA and growing
-            and strengthening the socialist movement as a whole.
+            Without any source of funding from the national organization, YDSA
+            chapters often lack the resources needed to pull off successful
+            campaign work and to send members to YDSA conferences and
+            conventions. Even YDSA chapters in areas with large DSA chapters can
+            have difficulty accessing those chapters’ resources and organizing
+            capacity, simply because YDSA is not prioritized by DSA leaders in
+            the area. This is despite the fact that YDSA has proven itself time
+            and time again to be an effective organizing body that has continued
+            to grow its membership and has produced potent student organizers
+            that have helped organize student-worker unions from Dartmouth to
+            the UC system. By providing YDSA members a seat at the table and by
+            matching funds made through their organizing efforts, DSA can
+            support our YDSA socialist leaders. These are the organizers who
+            will build and lead a mass movement of millions of working people.
           </p>
           <h3 style={{ textAlign: "center" }}>
             Do you support Bread and Roses' vision for YDSA?{" "}
@@ -614,7 +306,9 @@ class Candidates2020 extends React.Component {
               <h2>
                 {this.state.candidate.name}, {this.state.candidate.school}
               </h2>
-              <h3>{this.state.candidate.position}</h3>
+              <h3>
+                {this.state.candidate.pronouns}, {this.state.candidate.position}
+              </h3>
               <CandidatePhoto
                 img={this.image(this.state.candidate)}
                 alt={this.state.candidate.name}
@@ -650,4 +344,4 @@ export const query = graphql`
   }
 `
 
-export default Candidates2020
+export default Candidates2022

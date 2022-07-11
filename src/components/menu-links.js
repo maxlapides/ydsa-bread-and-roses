@@ -32,9 +32,9 @@ class MenuLinks extends React.Component {
         <li>
           <Link to="/">2021 YDSA Summer Convention</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/resolutions/">2021 Resolutions</Link>
-        </li>
+        </li> */}
         {/* <li>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSemqRMOvyvVNjCaCNwFb4U-RSWcxAniXPstvD4-RpE0gJK_ZQ/viewform">
             Support Our Slate
