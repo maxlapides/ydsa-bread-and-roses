@@ -14,7 +14,7 @@ const candidates = [
     name: "Jake Colosa",
     pronouns: "He/They",
     school: "New York University",
-    position: "--",
+    position: "Co-Chair",
     bio: (
       <>
         <p>
@@ -47,7 +47,7 @@ const candidates = [
     name: "Kayla Sharpe",
     pronouns: "They/Them",
     school: "Oakland University",
-    position: "--",
+    position: "At-Large",
     bio: (
       <>
         <p>
@@ -77,7 +77,7 @@ const candidates = [
     name: "Taylor Clark",
     pronouns: "He/Him",
     school: "University of California, Santa Barbara",
-    position: "--",
+    position: "At-Large",
     bio: (
       <>
         <p>
@@ -107,7 +107,7 @@ const candidates = [
     name: "Lance Jackson",
     pronouns: "He/Him",
     school: "University of California, Berkeley",
-    position: "--",
+    position: "At-Large",
     bio: (
       <>
         <p>
