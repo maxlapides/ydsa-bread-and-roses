@@ -234,19 +234,19 @@ class Candidates2022 extends React.Component {
 
         <div className="content-column">
           <h3>
-            The 2022 YDSA Convention will be held online from{" "}
-            <strong>Friday, June 25 to Sunday, June 27</strong>. For more
+            The 2022 YDSA Convention will be held in Minneapolis from{" "}
+            <strong>Friday, July 22 to Sunday, July 24</strong>. For more
             information, please check the{" "}
-            <ExternalLink href="https://y.dsausa.org/2021convention/">
+            <ExternalLink href="https://y.dsausa.org/get-involved/2022-ydsa-convention/">
               official YDSA convention website
             </ExternalLink>
             .
           </h3>
           <p>
-            The Bread and Roses caucus is excited to introduce our slate for the
-            2022 National YDSA convention: Jake Colosa (New York University),
-            Kayla Sharpe (Oakland University), Taylor Clark (UC Santa Barbara),
-            and Lance Jackson (UC Berkeley)!
+            The Bread &amp; Roses caucus is excited to introduce our slate for
+            the 2022 National YDSA convention: Jake Colosa (New York
+            University), Kayla Sharpe (Oakland University), Taylor Clark (UC
+            Santa Barbara), and Lance Jackson (UC Berkeley)!
           </p>
           <p>
             As democratic socialists, we have an obligation to uphold democracy
@@ -280,7 +280,7 @@ class Candidates2022 extends React.Component {
             capacity, simply because YDSA is not prioritized by DSA leaders in
             the area. This is despite the fact that YDSA has proven itself time
             and time again to be an effective organizing body that has continued
-            to grow its membership and has produced potent student organizers
+            to grow its membership and has produced skilled student organizers
             that have helped organize student-worker unions from Dartmouth to
             the UC system. By providing YDSA members a seat at the table and by
             matching funds made through their organizing efforts, DSA can
@@ -289,8 +289,14 @@ class Candidates2022 extends React.Component {
           </p>
           <h3 style={{ textAlign: "center" }}>
             Do you support Bread and Roses' vision for YDSA?{" "}
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSfSmdjjx1Dvn6Q-zhHyHW-yxBTlUuNk1x8zO01VFfvA0MbFxg/viewform?gxids=7628">
+            <ExternalLink href="https://forms.gle/iDYwdS4SbVTwugEY9">
               Sign here!
+            </ExternalLink>
+          </h3>
+          <h3 style={{ textAlign: "center" }}>
+            Find our official voting guide at:{" "}
+            <ExternalLink href="https://bit.ly/breadandroses-2022">
+              https://bit.ly/breadandroses-2022
             </ExternalLink>
           </h3>
         </div>
